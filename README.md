@@ -1,5 +1,6 @@
 #项目启动方法
-```cmd
+
+```bash
 python3 main.py
 ```
 ##LINUX后台启动
