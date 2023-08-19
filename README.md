@@ -39,7 +39,6 @@ class YouDaoSettings(object):
 ![流程图](./PDF翻译接口流程图.png)
 ##项目结构
 ```
-.
 │  main.py   项目入口
 │  ReadMe.md 项目说明
 │  requirements.txt 项目依赖信息
@@ -79,3 +78,4 @@ class YouDaoSettings(object):
 │  └─zip
 └─web WEB服务目录
     │  webServer.py
+```
