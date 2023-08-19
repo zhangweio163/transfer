@@ -1,0 +1,2602 @@
+卷 软件 的文件夹 PATH 列表
+卷序列号为 414B-D009
+F:.
+│  list.txt
+│  main.py
+│  PDF翻译接口流程图.png
+│  ReadMe.md
+│  requirements.txt
+│  test.py
+│  
+├─.idea
+│  │  .gitignore
+│  │  dbnavigator.xml
+│  │  deployment.xml
+│  │  encodings.xml
+│  │  jsLibraryMappings.xml
+│  │  misc.xml
+│  │  modules.xml
+│  │  transfer.iml
+│  │  vcs.xml
+│  │  workspace.xml
+│  │  
+│  └─inspectionProfiles
+│          profiles_settings.xml
+│          Project_Default.xml
+│          
+├─API
+│  ├─openai
+│  │      AIclient.py
+│  │      
+│  └─youdao
+│      │  TranslateDemo.py
+│      │  
+│      ├─utils
+│      │  │  AuthV3Util.py
+│      │  │  AuthV4Util.py
+│      │  │  WebSocketUtil.py
+│      │  │  
+│      │  └─__pycache__
+│      └─__pycache__
+├─client
+│  │  pdfDoler.py
+│  │  
+│  ├─fonts
+│  │      ALQSNK+LinLibertineT.pfa
+│  │      BSTLLL+LinBiolinumTB.pfa
+│  │      GFELSU+LinLibertineTB.pfa
+│  │      simsun.ttc
+│  │      XLUKDZ+LinLibertineTI.pfa
+│  │      
+│  └─__pycache__
+│          pdfDoler.cpython-37.pyc
+│          
+├─htmlDemo
+│      axios.min.js
+│      loading.gif
+│      vue.global.prod.js
+│      斯坦福小镇：生成式人类行为交互模拟体.pdf
+│      测试接口.html
+│      
+├─seting
+│  │  seting.py
+│  │  
+│  └─__pycache__
+│          seting.cpython-37.pyc
+│          
+├─upload
+│  ├─pdf
+│  ├─translated
+│  └─zip
+├─venv
+│  │  pyvenv.cfg
+│  │  
+│  ├─Include
+│  ├─Lib
+│  │  └─site-packages
+│  │      │  easy_install.py
+│  │      │  typing_extensions.py
+│  │      │  uuid.py
+│  │      │  
+│  │      ├─annotated_types
+│  │      │  │  py.typed
+│  │      │  │  test_cases.py
+│  │      │  │  __init__.py
+│  │      │  │  
+│  │      │  └─__pycache__
+│  │      │          test_cases.cpython-37.pyc
+│  │      │          __init__.cpython-37.pyc
+│  │      │          
+│  │      ├─annotated_types-0.5.0.dist-info
+│  │      │  │  INSTALLER
+│  │      │  │  METADATA
+│  │      │  │  RECORD
+│  │      │  │  WHEEL
+│  │      │  │  
+│  │      │  └─licenses
+│  │      │          LICENSE
+│  │      │          
+│  │      ├─anyio
+│  │      │  │  from_thread.py
+│  │      │  │  lowlevel.py
+│  │      │  │  py.typed
+│  │      │  │  pytest_plugin.py
+│  │      │  │  to_process.py
+│  │      │  │  to_thread.py
+│  │      │  │  __init__.py
+│  │      │  │  
+│  │      │  ├─abc
+│  │      │  │  │  _resources.py
+│  │      │  │  │  _sockets.py
+│  │      │  │  │  _streams.py
+│  │      │  │  │  _subprocesses.py
+│  │      │  │  │  _tasks.py
+│  │      │  │  │  _testing.py
+│  │      │  │  │  __init__.py
+│  │      │  │  │  
+│  │      │  │  └─__pycache__
+│  │      │  │          _resources.cpython-37.pyc
+│  │      │  │          _sockets.cpython-37.pyc
+│  │      │  │          _streams.cpython-37.pyc
+│  │      │  │          _subprocesses.cpython-37.pyc
+│  │      │  │          _tasks.cpython-37.pyc
+│  │      │  │          _testing.cpython-37.pyc
+│  │      │  │          __init__.cpython-37.pyc
+│  │      │  │          
+│  │      │  ├─streams
+│  │      │  │  │  buffered.py
+│  │      │  │  │  file.py
+│  │      │  │  │  memory.py
+│  │      │  │  │  stapled.py
+│  │      │  │  │  text.py
+│  │      │  │  │  tls.py
+│  │      │  │  │  __init__.py
+│  │      │  │  │  
+│  │      │  │  └─__pycache__
+│  │      │  │          buffered.cpython-37.pyc
+│  │      │  │          file.cpython-37.pyc
+│  │      │  │          memory.cpython-37.pyc
+│  │      │  │          stapled.cpython-37.pyc
+│  │      │  │          text.cpython-37.pyc
+│  │      │  │          tls.cpython-37.pyc
+│  │      │  │          __init__.cpython-37.pyc
+│  │      │  │          
+│  │      │  ├─_backends
+│  │      │  │  │  _asyncio.py
+│  │      │  │  │  _trio.py
+│  │      │  │  │  __init__.py
+│  │      │  │  │  
+│  │      │  │  └─__pycache__
+│  │      │  │          _asyncio.cpython-37.pyc
+│  │      │  │          _trio.cpython-37.pyc
+│  │      │  │          __init__.cpython-37.pyc
+│  │      │  │          
+│  │      │  ├─_core
+│  │      │  │  │  _compat.py
+│  │      │  │  │  _eventloop.py
+│  │      │  │  │  _exceptions.py
+│  │      │  │  │  _fileio.py
+│  │      │  │  │  _resources.py
+│  │      │  │  │  _signals.py
+│  │      │  │  │  _sockets.py
+│  │      │  │  │  _streams.py
+│  │      │  │  │  _subprocesses.py
+│  │      │  │  │  _synchronization.py
+│  │      │  │  │  _tasks.py
+│  │      │  │  │  _testing.py
+│  │      │  │  │  _typedattr.py
+│  │      │  │  │  __init__.py
+│  │      │  │  │  
+│  │      │  │  └─__pycache__
+│  │      │  │          _compat.cpython-37.pyc
+│  │      │  │          _eventloop.cpython-37.pyc
+│  │      │  │          _exceptions.cpython-37.pyc
+│  │      │  │          _fileio.cpython-37.pyc
+│  │      │  │          _resources.cpython-37.pyc
+│  │      │  │          _signals.cpython-37.pyc
+│  │      │  │          _sockets.cpython-37.pyc
+│  │      │  │          _streams.cpython-37.pyc
+│  │      │  │          _subprocesses.cpython-37.pyc
+│  │      │  │          _synchronization.cpython-37.pyc
+│  │      │  │          _tasks.cpython-37.pyc
+│  │      │  │          _testing.cpython-37.pyc
+│  │      │  │          _typedattr.cpython-37.pyc
+│  │      │  │          __init__.cpython-37.pyc
+│  │      │  │          
+│  │      │  └─__pycache__
+│  │      │          from_thread.cpython-37.pyc
+│  │      │          lowlevel.cpython-37.pyc
+│  │      │          pytest_plugin.cpython-37.pyc
+│  │      │          to_process.cpython-37.pyc
+│  │      │          to_thread.cpython-37.pyc
+│  │      │          __init__.cpython-37.pyc
+│  │      │          
+│  │      ├─anyio-3.7.1.dist-info
+│  │      │      entry_points.txt
+│  │      │      INSTALLER
+│  │      │      LICENSE
+│  │      │      METADATA
+│  │      │      RECORD
+│  │      │      top_level.txt
+│  │      │      WHEEL
+│  │      │      
+│  │      ├─beautifulsoup4-4.12.2.dist-info
+│  │      │  │  INSTALLER
+│  │      │  │  METADATA
+│  │      │  │  RECORD
+│  │      │  │  WHEEL
+│  │      │  │  
+│  │      │  └─licenses
+│  │      │          AUTHORS
+│  │      │          LICENSE
+│  │      │          
+│  │      ├─bs4
+│  │      │  │  css.py
+│  │      │  │  dammit.py
+│  │      │  │  diagnose.py
+│  │      │  │  element.py
+│  │      │  │  formatter.py
+│  │      │  │  __init__.py
+│  │      │  │  
+│  │      │  ├─builder
+│  │      │  │  │  _html5lib.py
+│  │      │  │  │  _htmlparser.py
+│  │      │  │  │  _lxml.py
+│  │      │  │  │  __init__.py
+│  │      │  │  │  
+│  │      │  │  └─__pycache__
+│  │      │  │          _html5lib.cpython-37.pyc
+│  │      │  │          _htmlparser.cpython-37.pyc
+│  │      │  │          _lxml.cpython-37.pyc
+│  │      │  │          __init__.cpython-37.pyc
+│  │      │  │          
+│  │      │  ├─tests
+│  │      │  │  │  test_builder.py
+│  │      │  │  │  test_builder_registry.py
+│  │      │  │  │  test_css.py
+│  │      │  │  │  test_dammit.py
+│  │      │  │  │  test_docs.py
+│  │      │  │  │  test_element.py
+│  │      │  │  │  test_formatter.py
+│  │      │  │  │  test_fuzz.py
+│  │      │  │  │  test_html5lib.py
+│  │      │  │  │  test_htmlparser.py
+│  │      │  │  │  test_lxml.py
+│  │      │  │  │  test_navigablestring.py
+│  │      │  │  │  test_pageelement.py
+│  │      │  │  │  test_soup.py
+│  │      │  │  │  test_tag.py
+│  │      │  │  │  test_tree.py
+│  │      │  │  │  __init__.py
+│  │      │  │  │  
+│  │      │  │  ├─fuzz
+│  │      │  │  │      clusterfuzz-testcase-minimized-bs4_fuzzer-4818336571064320.testcase
+│  │      │  │  │      clusterfuzz-testcase-minimized-bs4_fuzzer-4999465949331456.testcase
+│  │      │  │  │      clusterfuzz-testcase-minimized-bs4_fuzzer-5167584867909632.testcase
+│  │      │  │  │      clusterfuzz-testcase-minimized-bs4_fuzzer-5703933063462912.testcase
+│  │      │  │  │      clusterfuzz-testcase-minimized-bs4_fuzzer-5843991618256896.testcase
+│  │      │  │  │      clusterfuzz-testcase-minimized-bs4_fuzzer-5984173902397440.testcase
+│  │      │  │  │      clusterfuzz-testcase-minimized-bs4_fuzzer-6124268085182464.testcase
+│  │      │  │  │      clusterfuzz-testcase-minimized-bs4_fuzzer-6241471367348224.testcase
+│  │      │  │  │      clusterfuzz-testcase-minimized-bs4_fuzzer-6450958476902400.testcase
+│  │      │  │  │      clusterfuzz-testcase-minimized-bs4_fuzzer-6600557255327744.testcase
+│  │      │  │  │      crash-0d306a50c8ed8bcd0785b67000fcd5dea1d33f08.testcase
+│  │      │  │  │      
+│  │      │  │  └─__pycache__
+│  │      │  │          test_builder.cpython-37.pyc
+│  │      │  │          test_builder_registry.cpython-37.pyc
+│  │      │  │          test_css.cpython-37.pyc
+│  │      │  │          test_dammit.cpython-37.pyc
+│  │      │  │          test_docs.cpython-37.pyc
+│  │      │  │          test_element.cpython-37.pyc
+│  │      │  │          test_formatter.cpython-37.pyc
+│  │      │  │          test_fuzz.cpython-37.pyc
+│  │      │  │          test_html5lib.cpython-37.pyc
+│  │      │  │          test_htmlparser.cpython-37.pyc
+│  │      │  │          test_lxml.cpython-37.pyc
+│  │      │  │          test_navigablestring.cpython-37.pyc
+│  │      │  │          test_pageelement.cpython-37.pyc
+│  │      │  │          test_soup.cpython-37.pyc
+│  │      │  │          test_tag.cpython-37.pyc
+│  │      │  │          test_tree.cpython-37.pyc
+│  │      │  │          __init__.cpython-37.pyc
+│  │      │  │          
+│  │      │  └─__pycache__
+│  │      │          css.cpython-37.pyc
+│  │      │          dammit.cpython-37.pyc
+│  │      │          diagnose.cpython-37.pyc
+│  │      │          element.cpython-37.pyc
+│  │      │          formatter.cpython-37.pyc
+│  │      │          __init__.cpython-37.pyc
+│  │      │          
+│  │      ├─certifi
+│  │      │  │  cacert.pem
+│  │      │  │  core.py
+│  │      │  │  py.typed
+│  │      │  │  __init__.py
+│  │      │  │  __main__.py
+│  │      │  │  
+│  │      │  └─__pycache__
+│  │      │          core.cpython-37.pyc
+│  │      │          __init__.cpython-37.pyc
+│  │      │          __main__.cpython-37.pyc
+│  │      │          
+│  │      ├─certifi-2023.7.22.dist-info
+│  │      │      INSTALLER
+│  │      │      LICENSE
+│  │      │      METADATA
+│  │      │      RECORD
+│  │      │      top_level.txt
+│  │      │      WHEEL
+│  │      │      
+│  │      ├─charset_normalizer
+│  │      │  │  api.py
+│  │      │  │  cd.py
+│  │      │  │  constant.py
+│  │      │  │  legacy.py
+│  │      │  │  md.cp37-win_amd64.pyd
+│  │      │  │  md.py
+│  │      │  │  md__mypyc.cp37-win_amd64.pyd
+│  │      │  │  models.py
+│  │      │  │  py.typed
+│  │      │  │  utils.py
+│  │      │  │  version.py
+│  │      │  │  __init__.py
+│  │      │  │  
+│  │      │  ├─assets
+│  │      │  │  │  __init__.py
+│  │      │  │  │  
+│  │      │  │  └─__pycache__
+│  │      │  │          __init__.cpython-37.pyc
+│  │      │  │          
+│  │      │  ├─cli
+│  │      │  │  │  normalizer.py
+│  │      │  │  │  __init__.py
+│  │      │  │  │  
+│  │      │  │  └─__pycache__
+│  │      │  │          normalizer.cpython-37.pyc
+│  │      │  │          __init__.cpython-37.pyc
+│  │      │  │          
+│  │      │  └─__pycache__
+│  │      │          api.cpython-37.pyc
+│  │      │          cd.cpython-37.pyc
+│  │      │          constant.cpython-37.pyc
+│  │      │          legacy.cpython-37.pyc
+│  │      │          md.cpython-37.pyc
+│  │      │          models.cpython-37.pyc
+│  │      │          utils.cpython-37.pyc
+│  │      │          version.cpython-37.pyc
+│  │      │          __init__.cpython-37.pyc
+│  │      │          
+│  │      ├─charset_normalizer-3.2.0.dist-info
+│  │      │      entry_points.txt
+│  │      │      INSTALLER
+│  │      │      LICENSE
+│  │      │      METADATA
+│  │      │      RECORD
+│  │      │      top_level.txt
+│  │      │      WHEEL
+│  │      │      
+│  │      ├─click
+│  │      │  │  core.py
+│  │      │  │  decorators.py
+│  │      │  │  exceptions.py
+│  │      │  │  formatting.py
+│  │      │  │  globals.py
+│  │      │  │  parser.py
+│  │      │  │  py.typed
+│  │      │  │  shell_completion.py
+│  │      │  │  termui.py
+│  │      │  │  testing.py
+│  │      │  │  types.py
+│  │      │  │  utils.py
+│  │      │  │  _compat.py
+│  │      │  │  _termui_impl.py
+│  │      │  │  _textwrap.py
+│  │      │  │  _winconsole.py
+│  │      │  │  __init__.py
+│  │      │  │  
+│  │      │  └─__pycache__
+│  │      │          core.cpython-37.pyc
+│  │      │          decorators.cpython-37.pyc
+│  │      │          exceptions.cpython-37.pyc
+│  │      │          formatting.cpython-37.pyc
+│  │      │          globals.cpython-37.pyc
+│  │      │          parser.cpython-37.pyc
+│  │      │          shell_completion.cpython-37.pyc
+│  │      │          termui.cpython-37.pyc
+│  │      │          testing.cpython-37.pyc
+│  │      │          types.cpython-37.pyc
+│  │      │          utils.cpython-37.pyc
+│  │      │          _compat.cpython-37.pyc
+│  │      │          _termui_impl.cpython-37.pyc
+│  │      │          _textwrap.cpython-37.pyc
+│  │      │          _winconsole.cpython-37.pyc
+│  │      │          __init__.cpython-37.pyc
+│  │      │          
+│  │      ├─click-8.1.6.dist-info
+│  │      │      INSTALLER
+│  │      │      LICENSE.rst
+│  │      │      METADATA
+│  │      │      RECORD
+│  │      │      top_level.txt
+│  │      │      WHEEL
+│  │      │      
+│  │      ├─colorama
+│  │      │  │  ansi.py
+│  │      │  │  ansitowin32.py
+│  │      │  │  initialise.py
+│  │      │  │  win32.py
+│  │      │  │  winterm.py
+│  │      │  │  __init__.py
+│  │      │  │  
+│  │      │  ├─tests
+│  │      │  │  │  ansitowin32_test.py
+│  │      │  │  │  ansi_test.py
+│  │      │  │  │  initialise_test.py
+│  │      │  │  │  isatty_test.py
+│  │      │  │  │  utils.py
+│  │      │  │  │  winterm_test.py
+│  │      │  │  │  __init__.py
+│  │      │  │  │  
+│  │      │  │  └─__pycache__
+│  │      │  │          ansitowin32_test.cpython-37.pyc
+│  │      │  │          ansi_test.cpython-37.pyc
+│  │      │  │          initialise_test.cpython-37.pyc
+│  │      │  │          isatty_test.cpython-37.pyc
+│  │      │  │          utils.cpython-37.pyc
+│  │      │  │          winterm_test.cpython-37.pyc
+│  │      │  │          __init__.cpython-37.pyc
+│  │      │  │          
+│  │      │  └─__pycache__
+│  │      │          ansi.cpython-37.pyc
+│  │      │          ansitowin32.cpython-37.pyc
+│  │      │          initialise.cpython-37.pyc
+│  │      │          win32.cpython-37.pyc
+│  │      │          winterm.cpython-37.pyc
+│  │      │          __init__.cpython-37.pyc
+│  │      │          
+│  │      ├─colorama-0.4.6.dist-info
+│  │      │  │  INSTALLER
+│  │      │  │  METADATA
+│  │      │  │  RECORD
+│  │      │  │  WHEEL
+│  │      │  │  
+│  │      │  └─licenses
+│  │      │          LICENSE.txt
+│  │      │          
+│  │      ├─exceptiongroup
+│  │      │  │  py.typed
+│  │      │  │  _catch.py
+│  │      │  │  _exceptions.py
+│  │      │  │  _formatting.py
+│  │      │  │  _version.py
+│  │      │  │  __init__.py
+│  │      │  │  
+│  │      │  └─__pycache__
+│  │      │          _catch.cpython-37.pyc
+│  │      │          _exceptions.cpython-37.pyc
+│  │      │          _formatting.cpython-37.pyc
+│  │      │          _version.cpython-37.pyc
+│  │      │          __init__.cpython-37.pyc
+│  │      │          
+│  │      ├─exceptiongroup-1.1.3.dist-info
+│  │      │      INSTALLER
+│  │      │      LICENSE
+│  │      │      METADATA
+│  │      │      RECORD
+│  │      │      WHEEL
+│  │      │      
+│  │      ├─fastapi
+│  │      │  │  applications.py
+│  │      │  │  background.py
+│  │      │  │  concurrency.py
+│  │      │  │  datastructures.py
+│  │      │  │  encoders.py
+│  │      │  │  exceptions.py
+│  │      │  │  exception_handlers.py
+│  │      │  │  logger.py
+│  │      │  │  params.py
+│  │      │  │  param_functions.py
+│  │      │  │  py.typed
+│  │      │  │  requests.py
+│  │      │  │  responses.py
+│  │      │  │  routing.py
+│  │      │  │  staticfiles.py
+│  │      │  │  templating.py
+│  │      │  │  testclient.py
+│  │      │  │  types.py
+│  │      │  │  utils.py
+│  │      │  │  websockets.py
+│  │      │  │  _compat.py
+│  │      │  │  __init__.py
+│  │      │  │  
+│  │      │  ├─dependencies
+│  │      │  │  │  models.py
+│  │      │  │  │  utils.py
+│  │      │  │  │  __init__.py
+│  │      │  │  │  
+│  │      │  │  └─__pycache__
+│  │      │  │          models.cpython-37.pyc
+│  │      │  │          utils.cpython-37.pyc
+│  │      │  │          __init__.cpython-37.pyc
+│  │      │  │          
+│  │      │  ├─middleware
+│  │      │  │  │  asyncexitstack.py
+│  │      │  │  │  cors.py
+│  │      │  │  │  gzip.py
+│  │      │  │  │  httpsredirect.py
+│  │      │  │  │  trustedhost.py
+│  │      │  │  │  wsgi.py
+│  │      │  │  │  __init__.py
+│  │      │  │  │  
+│  │      │  │  └─__pycache__
+│  │      │  │          asyncexitstack.cpython-37.pyc
+│  │      │  │          cors.cpython-37.pyc
+│  │      │  │          gzip.cpython-37.pyc
+│  │      │  │          httpsredirect.cpython-37.pyc
+│  │      │  │          trustedhost.cpython-37.pyc
+│  │      │  │          wsgi.cpython-37.pyc
+│  │      │  │          __init__.cpython-37.pyc
+│  │      │  │          
+│  │      │  ├─openapi
+│  │      │  │  │  constants.py
+│  │      │  │  │  docs.py
+│  │      │  │  │  models.py
+│  │      │  │  │  utils.py
+│  │      │  │  │  __init__.py
+│  │      │  │  │  
+│  │      │  │  └─__pycache__
+│  │      │  │          constants.cpython-37.pyc
+│  │      │  │          docs.cpython-37.pyc
+│  │      │  │          models.cpython-37.pyc
+│  │      │  │          utils.cpython-37.pyc
+│  │      │  │          __init__.cpython-37.pyc
+│  │      │  │          
+│  │      │  ├─security
+│  │      │  │  │  api_key.py
+│  │      │  │  │  base.py
+│  │      │  │  │  http.py
+│  │      │  │  │  oauth2.py
+│  │      │  │  │  open_id_connect_url.py
+│  │      │  │  │  utils.py
+│  │      │  │  │  __init__.py
+│  │      │  │  │  
+│  │      │  │  └─__pycache__
+│  │      │  │          api_key.cpython-37.pyc
+│  │      │  │          base.cpython-37.pyc
+│  │      │  │          http.cpython-37.pyc
+│  │      │  │          oauth2.cpython-37.pyc
+│  │      │  │          open_id_connect_url.cpython-37.pyc
+│  │      │  │          utils.cpython-37.pyc
+│  │      │  │          __init__.cpython-37.pyc
+│  │      │  │          
+│  │      │  └─__pycache__
+│  │      │          applications.cpython-37.pyc
+│  │      │          background.cpython-37.pyc
+│  │      │          concurrency.cpython-37.pyc
+│  │      │          datastructures.cpython-37.pyc
+│  │      │          encoders.cpython-37.pyc
+│  │      │          exceptions.cpython-37.pyc
+│  │      │          exception_handlers.cpython-37.pyc
+│  │      │          logger.cpython-37.pyc
+│  │      │          params.cpython-37.pyc
+│  │      │          param_functions.cpython-37.pyc
+│  │      │          requests.cpython-37.pyc
+│  │      │          responses.cpython-37.pyc
+│  │      │          routing.cpython-37.pyc
+│  │      │          staticfiles.cpython-37.pyc
+│  │      │          templating.cpython-37.pyc
+│  │      │          testclient.cpython-37.pyc
+│  │      │          types.cpython-37.pyc
+│  │      │          utils.cpython-37.pyc
+│  │      │          websockets.cpython-37.pyc
+│  │      │          _compat.cpython-37.pyc
+│  │      │          __init__.cpython-37.pyc
+│  │      │          
+│  │      ├─fastapi-0.101.1.dist-info
+│  │      │  │  INSTALLER
+│  │      │  │  METADATA
+│  │      │  │  RECORD
+│  │      │  │  WHEEL
+│  │      │  │  
+│  │      │  └─licenses
+│  │      │          LICENSE
+│  │      │          
+│  │      ├─fitz
+│  │      │  │  fitz.py
+│  │      │  │  utils.py
+│  │      │  │  _fitz.cp37-win_amd64.pyd
+│  │      │  │  __init__.py
+│  │      │  │  __main__.py
+│  │      │  │  
+│  │      │  └─__pycache__
+│  │      │          fitz.cpython-37.pyc
+│  │      │          utils.cpython-37.pyc
+│  │      │          __init__.cpython-37.pyc
+│  │      │          __main__.cpython-37.pyc
+│  │      │          
+│  │      ├─h11
+│  │      │  │  py.typed
+│  │      │  │  _abnf.py
+│  │      │  │  _connection.py
+│  │      │  │  _events.py
+│  │      │  │  _headers.py
+│  │      │  │  _readers.py
+│  │      │  │  _receivebuffer.py
+│  │      │  │  _state.py
+│  │      │  │  _util.py
+│  │      │  │  _version.py
+│  │      │  │  _writers.py
+│  │      │  │  __init__.py
+│  │      │  │  
+│  │      │  ├─tests
+│  │      │  │  │  helpers.py
+│  │      │  │  │  test_against_stdlib_http.py
+│  │      │  │  │  test_connection.py
+│  │      │  │  │  test_events.py
+│  │      │  │  │  test_headers.py
+│  │      │  │  │  test_helpers.py
+│  │      │  │  │  test_io.py
+│  │      │  │  │  test_receivebuffer.py
+│  │      │  │  │  test_state.py
+│  │      │  │  │  test_util.py
+│  │      │  │  │  __init__.py
+│  │      │  │  │  
+│  │      │  │  ├─data
+│  │      │  │  │      test-file
+│  │      │  │  │      
+│  │      │  │  └─__pycache__
+│  │      │  │          helpers.cpython-37.pyc
+│  │      │  │          test_against_stdlib_http.cpython-37.pyc
+│  │      │  │          test_connection.cpython-37.pyc
+│  │      │  │          test_events.cpython-37.pyc
+│  │      │  │          test_headers.cpython-37.pyc
+│  │      │  │          test_helpers.cpython-37.pyc
+│  │      │  │          test_io.cpython-37.pyc
+│  │      │  │          test_receivebuffer.cpython-37.pyc
+│  │      │  │          test_state.cpython-37.pyc
+│  │      │  │          test_util.cpython-37.pyc
+│  │      │  │          __init__.cpython-37.pyc
+│  │      │  │          
+│  │      │  └─__pycache__
+│  │      │          _abnf.cpython-37.pyc
+│  │      │          _connection.cpython-37.pyc
+│  │      │          _events.cpython-37.pyc
+│  │      │          _headers.cpython-37.pyc
+│  │      │          _readers.cpython-37.pyc
+│  │      │          _receivebuffer.cpython-37.pyc
+│  │      │          _state.cpython-37.pyc
+│  │      │          _util.cpython-37.pyc
+│  │      │          _version.cpython-37.pyc
+│  │      │          _writers.cpython-37.pyc
+│  │      │          __init__.cpython-37.pyc
+│  │      │          
+│  │      ├─h11-0.14.0.dist-info
+│  │      │      INSTALLER
+│  │      │      LICENSE.txt
+│  │      │      METADATA
+│  │      │      RECORD
+│  │      │      top_level.txt
+│  │      │      WHEEL
+│  │      │      
+│  │      ├─idna
+│  │      │  │  codec.py
+│  │      │  │  compat.py
+│  │      │  │  core.py
+│  │      │  │  idnadata.py
+│  │      │  │  intranges.py
+│  │      │  │  package_data.py
+│  │      │  │  py.typed
+│  │      │  │  uts46data.py
+│  │      │  │  __init__.py
+│  │      │  │  
+│  │      │  └─__pycache__
+│  │      │          codec.cpython-37.pyc
+│  │      │          compat.cpython-37.pyc
+│  │      │          core.cpython-37.pyc
+│  │      │          idnadata.cpython-37.pyc
+│  │      │          intranges.cpython-37.pyc
+│  │      │          package_data.cpython-37.pyc
+│  │      │          uts46data.cpython-37.pyc
+│  │      │          __init__.cpython-37.pyc
+│  │      │          
+│  │      ├─idna-3.4.dist-info
+│  │      │      INSTALLER
+│  │      │      LICENSE.md
+│  │      │      METADATA
+│  │      │      RECORD
+│  │      │      WHEEL
+│  │      │      
+│  │      ├─importlib_metadata
+│  │      │  │  py.typed
+│  │      │  │  _adapters.py
+│  │      │  │  _collections.py
+│  │      │  │  _compat.py
+│  │      │  │  _functools.py
+│  │      │  │  _itertools.py
+│  │      │  │  _meta.py
+│  │      │  │  _py39compat.py
+│  │      │  │  _text.py
+│  │      │  │  __init__.py
+│  │      │  │  
+│  │      │  └─__pycache__
+│  │      │          _adapters.cpython-37.pyc
+│  │      │          _collections.cpython-37.pyc
+│  │      │          _compat.cpython-37.pyc
+│  │      │          _functools.cpython-37.pyc
+│  │      │          _itertools.cpython-37.pyc
+│  │      │          _meta.cpython-37.pyc
+│  │      │          _py39compat.cpython-37.pyc
+│  │      │          _text.cpython-37.pyc
+│  │      │          __init__.cpython-37.pyc
+│  │      │          
+│  │      ├─importlib_metadata-6.7.0.dist-info
+│  │      │      INSTALLER
+│  │      │      LICENSE
+│  │      │      METADATA
+│  │      │      RECORD
+│  │      │      top_level.txt
+│  │      │      WHEEL
+│  │      │      
+│  │      ├─multipart
+│  │      │  │  decoders.py
+│  │      │  │  exceptions.py
+│  │      │  │  multipart.py
+│  │      │  │  __init__.py
+│  │      │  │  
+│  │      │  ├─tests
+│  │      │  │  │  compat.py
+│  │      │  │  │  test_multipart.py
+│  │      │  │  │  __init__.py
+│  │      │  │  │  
+│  │      │  │  ├─test_data
+│  │      │  │  │  └─http
+│  │      │  │  │          almost_match_boundary.http
+│  │      │  │  │          almost_match_boundary.yaml
+│  │      │  │  │          almost_match_boundary_without_CR.http
+│  │      │  │  │          almost_match_boundary_without_CR.yaml
+│  │      │  │  │          almost_match_boundary_without_final_hyphen.http
+│  │      │  │  │          almost_match_boundary_without_final_hyphen.yaml
+│  │      │  │  │          almost_match_boundary_without_LF.http
+│  │      │  │  │          almost_match_boundary_without_LF.yaml
+│  │      │  │  │          bad_end_of_headers.http
+│  │      │  │  │          bad_end_of_headers.yaml
+│  │      │  │  │          bad_header_char.http
+│  │      │  │  │          bad_header_char.yaml
+│  │      │  │  │          bad_initial_boundary.http
+│  │      │  │  │          bad_initial_boundary.yaml
+│  │      │  │  │          base64_encoding.http
+│  │      │  │  │          base64_encoding.yaml
+│  │      │  │  │          CR_in_header.http
+│  │      │  │  │          CR_in_header.yaml
+│  │      │  │  │          CR_in_header_value.http
+│  │      │  │  │          CR_in_header_value.yaml
+│  │      │  │  │          empty_header.http
+│  │      │  │  │          empty_header.yaml
+│  │      │  │  │          multiple_fields.http
+│  │      │  │  │          multiple_fields.yaml
+│  │      │  │  │          multiple_files.http
+│  │      │  │  │          multiple_files.yaml
+│  │      │  │  │          quoted_printable_encoding.http
+│  │      │  │  │          quoted_printable_encoding.yaml
+│  │      │  │  │          single_field.http
+│  │      │  │  │          single_field.yaml
+│  │      │  │  │          single_field_blocks.http
+│  │      │  │  │          single_field_blocks.yaml
+│  │      │  │  │          single_field_longer.http
+│  │      │  │  │          single_field_longer.yaml
+│  │      │  │  │          single_field_single_file.http
+│  │      │  │  │          single_field_single_file.yaml
+│  │      │  │  │          single_field_with_leading_newlines.http
+│  │      │  │  │          single_field_with_leading_newlines.yaml
+│  │      │  │  │          single_file.http
+│  │      │  │  │          single_file.yaml
+│  │      │  │  │          utf8_filename.http
+│  │      │  │  │          utf8_filename.yaml
+│  │      │  │  │          
+│  │      │  │  └─__pycache__
+│  │      │  │          compat.cpython-37.pyc
+│  │      │  │          test_multipart.cpython-37.pyc
+│  │      │  │          __init__.cpython-37.pyc
+│  │      │  │          
+│  │      │  └─__pycache__
+│  │      │          decoders.cpython-37.pyc
+│  │      │          exceptions.cpython-37.pyc
+│  │      │          multipart.cpython-37.pyc
+│  │      │          __init__.cpython-37.pyc
+│  │      │          
+│  │      ├─pip
+│  │      │  │  __init__.py
+│  │      │  │  __main__.py
+│  │      │  │  
+│  │      │  ├─_internal
+│  │      │  │  │  build_env.py
+│  │      │  │  │  cache.py
+│  │      │  │  │  configuration.py
+│  │      │  │  │  exceptions.py
+│  │      │  │  │  legacy_resolve.py
+│  │      │  │  │  locations.py
+│  │      │  │  │  main.py
+│  │      │  │  │  pep425tags.py
+│  │      │  │  │  pyproject.py
+│  │      │  │  │  self_outdated_check.py
+│  │      │  │  │  wheel_builder.py
+│  │      │  │  │  __init__.py
+│  │      │  │  │  
+│  │      │  │  ├─cli
+│  │      │  │  │  │  autocompletion.py
+│  │      │  │  │  │  base_command.py
+│  │      │  │  │  │  cmdoptions.py
+│  │      │  │  │  │  command_context.py
+│  │      │  │  │  │  main.py
+│  │      │  │  │  │  main_parser.py
+│  │      │  │  │  │  parser.py
+│  │      │  │  │  │  req_command.py
+│  │      │  │  │  │  status_codes.py
+│  │      │  │  │  │  __init__.py
+│  │      │  │  │  │  
+│  │      │  │  │  └─__pycache__
+│  │      │  │  │          autocompletion.cpython-37.pyc
+│  │      │  │  │          base_command.cpython-37.pyc
+│  │      │  │  │          cmdoptions.cpython-37.pyc
+│  │      │  │  │          command_context.cpython-37.pyc
+│  │      │  │  │          main.cpython-37.pyc
+│  │      │  │  │          main_parser.cpython-37.pyc
+│  │      │  │  │          parser.cpython-37.pyc
+│  │      │  │  │          req_command.cpython-37.pyc
+│  │      │  │  │          status_codes.cpython-37.pyc
+│  │      │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │          
+│  │      │  │  ├─commands
+│  │      │  │  │  │  check.py
+│  │      │  │  │  │  completion.py
+│  │      │  │  │  │  configuration.py
+│  │      │  │  │  │  debug.py
+│  │      │  │  │  │  download.py
+│  │      │  │  │  │  freeze.py
+│  │      │  │  │  │  hash.py
+│  │      │  │  │  │  help.py
+│  │      │  │  │  │  install.py
+│  │      │  │  │  │  list.py
+│  │      │  │  │  │  search.py
+│  │      │  │  │  │  show.py
+│  │      │  │  │  │  uninstall.py
+│  │      │  │  │  │  wheel.py
+│  │      │  │  │  │  __init__.py
+│  │      │  │  │  │  
+│  │      │  │  │  └─__pycache__
+│  │      │  │  │          check.cpython-37.pyc
+│  │      │  │  │          completion.cpython-37.pyc
+│  │      │  │  │          configuration.cpython-37.pyc
+│  │      │  │  │          debug.cpython-37.pyc
+│  │      │  │  │          download.cpython-37.pyc
+│  │      │  │  │          freeze.cpython-37.pyc
+│  │      │  │  │          hash.cpython-37.pyc
+│  │      │  │  │          help.cpython-37.pyc
+│  │      │  │  │          install.cpython-37.pyc
+│  │      │  │  │          list.cpython-37.pyc
+│  │      │  │  │          search.cpython-37.pyc
+│  │      │  │  │          show.cpython-37.pyc
+│  │      │  │  │          uninstall.cpython-37.pyc
+│  │      │  │  │          wheel.cpython-37.pyc
+│  │      │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │          
+│  │      │  │  ├─distributions
+│  │      │  │  │  │  base.py
+│  │      │  │  │  │  installed.py
+│  │      │  │  │  │  sdist.py
+│  │      │  │  │  │  wheel.py
+│  │      │  │  │  │  __init__.py
+│  │      │  │  │  │  
+│  │      │  │  │  └─__pycache__
+│  │      │  │  │          base.cpython-37.pyc
+│  │      │  │  │          installed.cpython-37.pyc
+│  │      │  │  │          sdist.cpython-37.pyc
+│  │      │  │  │          wheel.cpython-37.pyc
+│  │      │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │          
+│  │      │  │  ├─index
+│  │      │  │  │  │  collector.py
+│  │      │  │  │  │  package_finder.py
+│  │      │  │  │  │  __init__.py
+│  │      │  │  │  │  
+│  │      │  │  │  └─__pycache__
+│  │      │  │  │          collector.cpython-37.pyc
+│  │      │  │  │          package_finder.cpython-37.pyc
+│  │      │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │          
+│  │      │  │  ├─models
+│  │      │  │  │  │  candidate.py
+│  │      │  │  │  │  format_control.py
+│  │      │  │  │  │  index.py
+│  │      │  │  │  │  link.py
+│  │      │  │  │  │  scheme.py
+│  │      │  │  │  │  search_scope.py
+│  │      │  │  │  │  selection_prefs.py
+│  │      │  │  │  │  target_python.py
+│  │      │  │  │  │  wheel.py
+│  │      │  │  │  │  __init__.py
+│  │      │  │  │  │  
+│  │      │  │  │  └─__pycache__
+│  │      │  │  │          candidate.cpython-37.pyc
+│  │      │  │  │          format_control.cpython-37.pyc
+│  │      │  │  │          index.cpython-37.pyc
+│  │      │  │  │          link.cpython-37.pyc
+│  │      │  │  │          scheme.cpython-37.pyc
+│  │      │  │  │          search_scope.cpython-37.pyc
+│  │      │  │  │          selection_prefs.cpython-37.pyc
+│  │      │  │  │          target_python.cpython-37.pyc
+│  │      │  │  │          wheel.cpython-37.pyc
+│  │      │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │          
+│  │      │  │  ├─network
+│  │      │  │  │  │  auth.py
+│  │      │  │  │  │  cache.py
+│  │      │  │  │  │  download.py
+│  │      │  │  │  │  session.py
+│  │      │  │  │  │  utils.py
+│  │      │  │  │  │  xmlrpc.py
+│  │      │  │  │  │  __init__.py
+│  │      │  │  │  │  
+│  │      │  │  │  └─__pycache__
+│  │      │  │  │          auth.cpython-37.pyc
+│  │      │  │  │          cache.cpython-37.pyc
+│  │      │  │  │          download.cpython-37.pyc
+│  │      │  │  │          session.cpython-37.pyc
+│  │      │  │  │          utils.cpython-37.pyc
+│  │      │  │  │          xmlrpc.cpython-37.pyc
+│  │      │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │          
+│  │      │  │  ├─operations
+│  │      │  │  │  │  check.py
+│  │      │  │  │  │  freeze.py
+│  │      │  │  │  │  prepare.py
+│  │      │  │  │  │  __init__.py
+│  │      │  │  │  │  
+│  │      │  │  │  ├─build
+│  │      │  │  │  │  │  metadata.py
+│  │      │  │  │  │  │  metadata_legacy.py
+│  │      │  │  │  │  │  wheel.py
+│  │      │  │  │  │  │  wheel_legacy.py
+│  │      │  │  │  │  │  __init__.py
+│  │      │  │  │  │  │  
+│  │      │  │  │  │  └─__pycache__
+│  │      │  │  │  │          metadata.cpython-37.pyc
+│  │      │  │  │  │          metadata_legacy.cpython-37.pyc
+│  │      │  │  │  │          wheel.cpython-37.pyc
+│  │      │  │  │  │          wheel_legacy.cpython-37.pyc
+│  │      │  │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │  │          
+│  │      │  │  │  ├─install
+│  │      │  │  │  │  │  editable_legacy.py
+│  │      │  │  │  │  │  legacy.py
+│  │      │  │  │  │  │  wheel.py
+│  │      │  │  │  │  │  __init__.py
+│  │      │  │  │  │  │  
+│  │      │  │  │  │  └─__pycache__
+│  │      │  │  │  │          editable_legacy.cpython-37.pyc
+│  │      │  │  │  │          legacy.cpython-37.pyc
+│  │      │  │  │  │          wheel.cpython-37.pyc
+│  │      │  │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │  │          
+│  │      │  │  │  └─__pycache__
+│  │      │  │  │          check.cpython-37.pyc
+│  │      │  │  │          freeze.cpython-37.pyc
+│  │      │  │  │          prepare.cpython-37.pyc
+│  │      │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │          
+│  │      │  │  ├─req
+│  │      │  │  │  │  constructors.py
+│  │      │  │  │  │  req_file.py
+│  │      │  │  │  │  req_install.py
+│  │      │  │  │  │  req_set.py
+│  │      │  │  │  │  req_tracker.py
+│  │      │  │  │  │  req_uninstall.py
+│  │      │  │  │  │  __init__.py
+│  │      │  │  │  │  
+│  │      │  │  │  └─__pycache__
+│  │      │  │  │          constructors.cpython-37.pyc
+│  │      │  │  │          req_file.cpython-37.pyc
+│  │      │  │  │          req_install.cpython-37.pyc
+│  │      │  │  │          req_set.cpython-37.pyc
+│  │      │  │  │          req_tracker.cpython-37.pyc
+│  │      │  │  │          req_uninstall.cpython-37.pyc
+│  │      │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │          
+│  │      │  │  ├─utils
+│  │      │  │  │  │  appdirs.py
+│  │      │  │  │  │  compat.py
+│  │      │  │  │  │  deprecation.py
+│  │      │  │  │  │  distutils_args.py
+│  │      │  │  │  │  encoding.py
+│  │      │  │  │  │  entrypoints.py
+│  │      │  │  │  │  filesystem.py
+│  │      │  │  │  │  filetypes.py
+│  │      │  │  │  │  glibc.py
+│  │      │  │  │  │  hashes.py
+│  │      │  │  │  │  inject_securetransport.py
+│  │      │  │  │  │  logging.py
+│  │      │  │  │  │  marker_files.py
+│  │      │  │  │  │  misc.py
+│  │      │  │  │  │  models.py
+│  │      │  │  │  │  packaging.py
+│  │      │  │  │  │  pkg_resources.py
+│  │      │  │  │  │  setuptools_build.py
+│  │      │  │  │  │  subprocess.py
+│  │      │  │  │  │  temp_dir.py
+│  │      │  │  │  │  typing.py
+│  │      │  │  │  │  ui.py
+│  │      │  │  │  │  unpacking.py
+│  │      │  │  │  │  urls.py
+│  │      │  │  │  │  virtualenv.py
+│  │      │  │  │  │  wheel.py
+│  │      │  │  │  │  __init__.py
+│  │      │  │  │  │  
+│  │      │  │  │  └─__pycache__
+│  │      │  │  │          appdirs.cpython-37.pyc
+│  │      │  │  │          compat.cpython-37.pyc
+│  │      │  │  │          deprecation.cpython-37.pyc
+│  │      │  │  │          distutils_args.cpython-37.pyc
+│  │      │  │  │          encoding.cpython-37.pyc
+│  │      │  │  │          entrypoints.cpython-37.pyc
+│  │      │  │  │          filesystem.cpython-37.pyc
+│  │      │  │  │          filetypes.cpython-37.pyc
+│  │      │  │  │          glibc.cpython-37.pyc
+│  │      │  │  │          hashes.cpython-37.pyc
+│  │      │  │  │          inject_securetransport.cpython-37.pyc
+│  │      │  │  │          logging.cpython-37.pyc
+│  │      │  │  │          marker_files.cpython-37.pyc
+│  │      │  │  │          misc.cpython-37.pyc
+│  │      │  │  │          models.cpython-37.pyc
+│  │      │  │  │          packaging.cpython-37.pyc
+│  │      │  │  │          pkg_resources.cpython-37.pyc
+│  │      │  │  │          setuptools_build.cpython-37.pyc
+│  │      │  │  │          subprocess.cpython-37.pyc
+│  │      │  │  │          temp_dir.cpython-37.pyc
+│  │      │  │  │          typing.cpython-37.pyc
+│  │      │  │  │          ui.cpython-37.pyc
+│  │      │  │  │          unpacking.cpython-37.pyc
+│  │      │  │  │          urls.cpython-37.pyc
+│  │      │  │  │          virtualenv.cpython-37.pyc
+│  │      │  │  │          wheel.cpython-37.pyc
+│  │      │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │          
+│  │      │  │  ├─vcs
+│  │      │  │  │  │  bazaar.py
+│  │      │  │  │  │  git.py
+│  │      │  │  │  │  mercurial.py
+│  │      │  │  │  │  subversion.py
+│  │      │  │  │  │  versioncontrol.py
+│  │      │  │  │  │  __init__.py
+│  │      │  │  │  │  
+│  │      │  │  │  └─__pycache__
+│  │      │  │  │          bazaar.cpython-37.pyc
+│  │      │  │  │          git.cpython-37.pyc
+│  │      │  │  │          mercurial.cpython-37.pyc
+│  │      │  │  │          subversion.cpython-37.pyc
+│  │      │  │  │          versioncontrol.cpython-37.pyc
+│  │      │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │          
+│  │      │  │  └─__pycache__
+│  │      │  │          build_env.cpython-37.pyc
+│  │      │  │          cache.cpython-37.pyc
+│  │      │  │          configuration.cpython-37.pyc
+│  │      │  │          exceptions.cpython-37.pyc
+│  │      │  │          legacy_resolve.cpython-37.pyc
+│  │      │  │          locations.cpython-37.pyc
+│  │      │  │          main.cpython-37.pyc
+│  │      │  │          pep425tags.cpython-37.pyc
+│  │      │  │          pyproject.cpython-37.pyc
+│  │      │  │          self_outdated_check.cpython-37.pyc
+│  │      │  │          wheel_builder.cpython-37.pyc
+│  │      │  │          __init__.cpython-37.pyc
+│  │      │  │          
+│  │      │  ├─_vendor
+│  │      │  │  │  appdirs.py
+│  │      │  │  │  contextlib2.py
+│  │      │  │  │  distro.py
+│  │      │  │  │  ipaddress.py
+│  │      │  │  │  pyparsing.py
+│  │      │  │  │  retrying.py
+│  │      │  │  │  six.py
+│  │      │  │  │  __init__.py
+│  │      │  │  │  
+│  │      │  │  ├─cachecontrol
+│  │      │  │  │  │  adapter.py
+│  │      │  │  │  │  cache.py
+│  │      │  │  │  │  compat.py
+│  │      │  │  │  │  controller.py
+│  │      │  │  │  │  filewrapper.py
+│  │      │  │  │  │  heuristics.py
+│  │      │  │  │  │  serialize.py
+│  │      │  │  │  │  wrapper.py
+│  │      │  │  │  │  _cmd.py
+│  │      │  │  │  │  __init__.py
+│  │      │  │  │  │  
+│  │      │  │  │  ├─caches
+│  │      │  │  │  │  │  file_cache.py
+│  │      │  │  │  │  │  redis_cache.py
+│  │      │  │  │  │  │  __init__.py
+│  │      │  │  │  │  │  
+│  │      │  │  │  │  └─__pycache__
+│  │      │  │  │  │          file_cache.cpython-37.pyc
+│  │      │  │  │  │          redis_cache.cpython-37.pyc
+│  │      │  │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │  │          
+│  │      │  │  │  └─__pycache__
+│  │      │  │  │          adapter.cpython-37.pyc
+│  │      │  │  │          cache.cpython-37.pyc
+│  │      │  │  │          compat.cpython-37.pyc
+│  │      │  │  │          controller.cpython-37.pyc
+│  │      │  │  │          filewrapper.cpython-37.pyc
+│  │      │  │  │          heuristics.cpython-37.pyc
+│  │      │  │  │          serialize.cpython-37.pyc
+│  │      │  │  │          wrapper.cpython-37.pyc
+│  │      │  │  │          _cmd.cpython-37.pyc
+│  │      │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │          
+│  │      │  │  ├─certifi
+│  │      │  │  │  │  cacert.pem
+│  │      │  │  │  │  core.py
+│  │      │  │  │  │  __init__.py
+│  │      │  │  │  │  __main__.py
+│  │      │  │  │  │  
+│  │      │  │  │  └─__pycache__
+│  │      │  │  │          core.cpython-37.pyc
+│  │      │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │          __main__.cpython-37.pyc
+│  │      │  │  │          
+│  │      │  │  ├─chardet
+│  │      │  │  │  │  big5freq.py
+│  │      │  │  │  │  big5prober.py
+│  │      │  │  │  │  chardistribution.py
+│  │      │  │  │  │  charsetgroupprober.py
+│  │      │  │  │  │  charsetprober.py
+│  │      │  │  │  │  codingstatemachine.py
+│  │      │  │  │  │  compat.py
+│  │      │  │  │  │  cp949prober.py
+│  │      │  │  │  │  enums.py
+│  │      │  │  │  │  escprober.py
+│  │      │  │  │  │  escsm.py
+│  │      │  │  │  │  eucjpprober.py
+│  │      │  │  │  │  euckrfreq.py
+│  │      │  │  │  │  euckrprober.py
+│  │      │  │  │  │  euctwfreq.py
+│  │      │  │  │  │  euctwprober.py
+│  │      │  │  │  │  gb2312freq.py
+│  │      │  │  │  │  gb2312prober.py
+│  │      │  │  │  │  hebrewprober.py
+│  │      │  │  │  │  jisfreq.py
+│  │      │  │  │  │  jpcntx.py
+│  │      │  │  │  │  langbulgarianmodel.py
+│  │      │  │  │  │  langcyrillicmodel.py
+│  │      │  │  │  │  langgreekmodel.py
+│  │      │  │  │  │  langhebrewmodel.py
+│  │      │  │  │  │  langhungarianmodel.py
+│  │      │  │  │  │  langthaimodel.py
+│  │      │  │  │  │  langturkishmodel.py
+│  │      │  │  │  │  latin1prober.py
+│  │      │  │  │  │  mbcharsetprober.py
+│  │      │  │  │  │  mbcsgroupprober.py
+│  │      │  │  │  │  mbcssm.py
+│  │      │  │  │  │  sbcharsetprober.py
+│  │      │  │  │  │  sbcsgroupprober.py
+│  │      │  │  │  │  sjisprober.py
+│  │      │  │  │  │  universaldetector.py
+│  │      │  │  │  │  utf8prober.py
+│  │      │  │  │  │  version.py
+│  │      │  │  │  │  __init__.py
+│  │      │  │  │  │  
+│  │      │  │  │  ├─cli
+│  │      │  │  │  │  │  chardetect.py
+│  │      │  │  │  │  │  __init__.py
+│  │      │  │  │  │  │  
+│  │      │  │  │  │  └─__pycache__
+│  │      │  │  │  │          chardetect.cpython-37.pyc
+│  │      │  │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │  │          
+│  │      │  │  │  └─__pycache__
+│  │      │  │  │          big5freq.cpython-37.pyc
+│  │      │  │  │          big5prober.cpython-37.pyc
+│  │      │  │  │          chardistribution.cpython-37.pyc
+│  │      │  │  │          charsetgroupprober.cpython-37.pyc
+│  │      │  │  │          charsetprober.cpython-37.pyc
+│  │      │  │  │          codingstatemachine.cpython-37.pyc
+│  │      │  │  │          compat.cpython-37.pyc
+│  │      │  │  │          cp949prober.cpython-37.pyc
+│  │      │  │  │          enums.cpython-37.pyc
+│  │      │  │  │          escprober.cpython-37.pyc
+│  │      │  │  │          escsm.cpython-37.pyc
+│  │      │  │  │          eucjpprober.cpython-37.pyc
+│  │      │  │  │          euckrfreq.cpython-37.pyc
+│  │      │  │  │          euckrprober.cpython-37.pyc
+│  │      │  │  │          euctwfreq.cpython-37.pyc
+│  │      │  │  │          euctwprober.cpython-37.pyc
+│  │      │  │  │          gb2312freq.cpython-37.pyc
+│  │      │  │  │          gb2312prober.cpython-37.pyc
+│  │      │  │  │          hebrewprober.cpython-37.pyc
+│  │      │  │  │          jisfreq.cpython-37.pyc
+│  │      │  │  │          jpcntx.cpython-37.pyc
+│  │      │  │  │          langbulgarianmodel.cpython-37.pyc
+│  │      │  │  │          langcyrillicmodel.cpython-37.pyc
+│  │      │  │  │          langgreekmodel.cpython-37.pyc
+│  │      │  │  │          langhebrewmodel.cpython-37.pyc
+│  │      │  │  │          langhungarianmodel.cpython-37.pyc
+│  │      │  │  │          langthaimodel.cpython-37.pyc
+│  │      │  │  │          langturkishmodel.cpython-37.pyc
+│  │      │  │  │          latin1prober.cpython-37.pyc
+│  │      │  │  │          mbcharsetprober.cpython-37.pyc
+│  │      │  │  │          mbcsgroupprober.cpython-37.pyc
+│  │      │  │  │          mbcssm.cpython-37.pyc
+│  │      │  │  │          sbcharsetprober.cpython-37.pyc
+│  │      │  │  │          sbcsgroupprober.cpython-37.pyc
+│  │      │  │  │          sjisprober.cpython-37.pyc
+│  │      │  │  │          universaldetector.cpython-37.pyc
+│  │      │  │  │          utf8prober.cpython-37.pyc
+│  │      │  │  │          version.cpython-37.pyc
+│  │      │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │          
+│  │      │  │  ├─colorama
+│  │      │  │  │  │  ansi.py
+│  │      │  │  │  │  ansitowin32.py
+│  │      │  │  │  │  initialise.py
+│  │      │  │  │  │  win32.py
+│  │      │  │  │  │  winterm.py
+│  │      │  │  │  │  __init__.py
+│  │      │  │  │  │  
+│  │      │  │  │  └─__pycache__
+│  │      │  │  │          ansi.cpython-37.pyc
+│  │      │  │  │          ansitowin32.cpython-37.pyc
+│  │      │  │  │          initialise.cpython-37.pyc
+│  │      │  │  │          win32.cpython-37.pyc
+│  │      │  │  │          winterm.cpython-37.pyc
+│  │      │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │          
+│  │      │  │  ├─distlib
+│  │      │  │  │  │  compat.py
+│  │      │  │  │  │  database.py
+│  │      │  │  │  │  index.py
+│  │      │  │  │  │  locators.py
+│  │      │  │  │  │  manifest.py
+│  │      │  │  │  │  markers.py
+│  │      │  │  │  │  metadata.py
+│  │      │  │  │  │  resources.py
+│  │      │  │  │  │  scripts.py
+│  │      │  │  │  │  t32.exe
+│  │      │  │  │  │  t64.exe
+│  │      │  │  │  │  util.py
+│  │      │  │  │  │  version.py
+│  │      │  │  │  │  w32.exe
+│  │      │  │  │  │  w64.exe
+│  │      │  │  │  │  wheel.py
+│  │      │  │  │  │  __init__.py
+│  │      │  │  │  │  
+│  │      │  │  │  ├─_backport
+│  │      │  │  │  │  │  misc.py
+│  │      │  │  │  │  │  shutil.py
+│  │      │  │  │  │  │  sysconfig.cfg
+│  │      │  │  │  │  │  sysconfig.py
+│  │      │  │  │  │  │  tarfile.py
+│  │      │  │  │  │  │  __init__.py
+│  │      │  │  │  │  │  
+│  │      │  │  │  │  └─__pycache__
+│  │      │  │  │  │          misc.cpython-37.pyc
+│  │      │  │  │  │          shutil.cpython-37.pyc
+│  │      │  │  │  │          sysconfig.cpython-37.pyc
+│  │      │  │  │  │          tarfile.cpython-37.pyc
+│  │      │  │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │  │          
+│  │      │  │  │  └─__pycache__
+│  │      │  │  │          compat.cpython-37.pyc
+│  │      │  │  │          database.cpython-37.pyc
+│  │      │  │  │          index.cpython-37.pyc
+│  │      │  │  │          locators.cpython-37.pyc
+│  │      │  │  │          manifest.cpython-37.pyc
+│  │      │  │  │          markers.cpython-37.pyc
+│  │      │  │  │          metadata.cpython-37.pyc
+│  │      │  │  │          resources.cpython-37.pyc
+│  │      │  │  │          scripts.cpython-37.pyc
+│  │      │  │  │          util.cpython-37.pyc
+│  │      │  │  │          version.cpython-37.pyc
+│  │      │  │  │          wheel.cpython-37.pyc
+│  │      │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │          
+│  │      │  │  ├─html5lib
+│  │      │  │  │  │  constants.py
+│  │      │  │  │  │  html5parser.py
+│  │      │  │  │  │  serializer.py
+│  │      │  │  │  │  _ihatexml.py
+│  │      │  │  │  │  _inputstream.py
+│  │      │  │  │  │  _tokenizer.py
+│  │      │  │  │  │  _utils.py
+│  │      │  │  │  │  __init__.py
+│  │      │  │  │  │  
+│  │      │  │  │  ├─filters
+│  │      │  │  │  │  │  alphabeticalattributes.py
+│  │      │  │  │  │  │  base.py
+│  │      │  │  │  │  │  inject_meta_charset.py
+│  │      │  │  │  │  │  lint.py
+│  │      │  │  │  │  │  optionaltags.py
+│  │      │  │  │  │  │  sanitizer.py
+│  │      │  │  │  │  │  whitespace.py
+│  │      │  │  │  │  │  __init__.py
+│  │      │  │  │  │  │  
+│  │      │  │  │  │  └─__pycache__
+│  │      │  │  │  │          alphabeticalattributes.cpython-37.pyc
+│  │      │  │  │  │          base.cpython-37.pyc
+│  │      │  │  │  │          inject_meta_charset.cpython-37.pyc
+│  │      │  │  │  │          lint.cpython-37.pyc
+│  │      │  │  │  │          optionaltags.cpython-37.pyc
+│  │      │  │  │  │          sanitizer.cpython-37.pyc
+│  │      │  │  │  │          whitespace.cpython-37.pyc
+│  │      │  │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │  │          
+│  │      │  │  │  ├─treeadapters
+│  │      │  │  │  │  │  genshi.py
+│  │      │  │  │  │  │  sax.py
+│  │      │  │  │  │  │  __init__.py
+│  │      │  │  │  │  │  
+│  │      │  │  │  │  └─__pycache__
+│  │      │  │  │  │          genshi.cpython-37.pyc
+│  │      │  │  │  │          sax.cpython-37.pyc
+│  │      │  │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │  │          
+│  │      │  │  │  ├─treebuilders
+│  │      │  │  │  │  │  base.py
+│  │      │  │  │  │  │  dom.py
+│  │      │  │  │  │  │  etree.py
+│  │      │  │  │  │  │  etree_lxml.py
+│  │      │  │  │  │  │  __init__.py
+│  │      │  │  │  │  │  
+│  │      │  │  │  │  └─__pycache__
+│  │      │  │  │  │          base.cpython-37.pyc
+│  │      │  │  │  │          dom.cpython-37.pyc
+│  │      │  │  │  │          etree.cpython-37.pyc
+│  │      │  │  │  │          etree_lxml.cpython-37.pyc
+│  │      │  │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │  │          
+│  │      │  │  │  ├─treewalkers
+│  │      │  │  │  │  │  base.py
+│  │      │  │  │  │  │  dom.py
+│  │      │  │  │  │  │  etree.py
+│  │      │  │  │  │  │  etree_lxml.py
+│  │      │  │  │  │  │  genshi.py
+│  │      │  │  │  │  │  __init__.py
+│  │      │  │  │  │  │  
+│  │      │  │  │  │  └─__pycache__
+│  │      │  │  │  │          base.cpython-37.pyc
+│  │      │  │  │  │          dom.cpython-37.pyc
+│  │      │  │  │  │          etree.cpython-37.pyc
+│  │      │  │  │  │          etree_lxml.cpython-37.pyc
+│  │      │  │  │  │          genshi.cpython-37.pyc
+│  │      │  │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │  │          
+│  │      │  │  │  ├─_trie
+│  │      │  │  │  │  │  datrie.py
+│  │      │  │  │  │  │  py.py
+│  │      │  │  │  │  │  _base.py
+│  │      │  │  │  │  │  __init__.py
+│  │      │  │  │  │  │  
+│  │      │  │  │  │  └─__pycache__
+│  │      │  │  │  │          datrie.cpython-37.pyc
+│  │      │  │  │  │          py.cpython-37.pyc
+│  │      │  │  │  │          _base.cpython-37.pyc
+│  │      │  │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │  │          
+│  │      │  │  │  └─__pycache__
+│  │      │  │  │          constants.cpython-37.pyc
+│  │      │  │  │          html5parser.cpython-37.pyc
+│  │      │  │  │          serializer.cpython-37.pyc
+│  │      │  │  │          _ihatexml.cpython-37.pyc
+│  │      │  │  │          _inputstream.cpython-37.pyc
+│  │      │  │  │          _tokenizer.cpython-37.pyc
+│  │      │  │  │          _utils.cpython-37.pyc
+│  │      │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │          
+│  │      │  │  ├─idna
+│  │      │  │  │  │  codec.py
+│  │      │  │  │  │  compat.py
+│  │      │  │  │  │  core.py
+│  │      │  │  │  │  idnadata.py
+│  │      │  │  │  │  intranges.py
+│  │      │  │  │  │  package_data.py
+│  │      │  │  │  │  uts46data.py
+│  │      │  │  │  │  __init__.py
+│  │      │  │  │  │  
+│  │      │  │  │  └─__pycache__
+│  │      │  │  │          codec.cpython-37.pyc
+│  │      │  │  │          compat.cpython-37.pyc
+│  │      │  │  │          core.cpython-37.pyc
+│  │      │  │  │          idnadata.cpython-37.pyc
+│  │      │  │  │          intranges.cpython-37.pyc
+│  │      │  │  │          package_data.cpython-37.pyc
+│  │      │  │  │          uts46data.cpython-37.pyc
+│  │      │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │          
+│  │      │  │  ├─msgpack
+│  │      │  │  │  │  exceptions.py
+│  │      │  │  │  │  fallback.py
+│  │      │  │  │  │  _version.py
+│  │      │  │  │  │  __init__.py
+│  │      │  │  │  │  
+│  │      │  │  │  └─__pycache__
+│  │      │  │  │          exceptions.cpython-37.pyc
+│  │      │  │  │          fallback.cpython-37.pyc
+│  │      │  │  │          _version.cpython-37.pyc
+│  │      │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │          
+│  │      │  │  ├─packaging
+│  │      │  │  │  │  markers.py
+│  │      │  │  │  │  requirements.py
+│  │      │  │  │  │  specifiers.py
+│  │      │  │  │  │  tags.py
+│  │      │  │  │  │  utils.py
+│  │      │  │  │  │  version.py
+│  │      │  │  │  │  _compat.py
+│  │      │  │  │  │  _structures.py
+│  │      │  │  │  │  _typing.py
+│  │      │  │  │  │  __about__.py
+│  │      │  │  │  │  __init__.py
+│  │      │  │  │  │  
+│  │      │  │  │  └─__pycache__
+│  │      │  │  │          markers.cpython-37.pyc
+│  │      │  │  │          requirements.cpython-37.pyc
+│  │      │  │  │          specifiers.cpython-37.pyc
+│  │      │  │  │          tags.cpython-37.pyc
+│  │      │  │  │          utils.cpython-37.pyc
+│  │      │  │  │          version.cpython-37.pyc
+│  │      │  │  │          _compat.cpython-37.pyc
+│  │      │  │  │          _structures.cpython-37.pyc
+│  │      │  │  │          _typing.cpython-37.pyc
+│  │      │  │  │          __about__.cpython-37.pyc
+│  │      │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │          
+│  │      │  │  ├─pep517
+│  │      │  │  │  │  build.py
+│  │      │  │  │  │  check.py
+│  │      │  │  │  │  colorlog.py
+│  │      │  │  │  │  compat.py
+│  │      │  │  │  │  dirtools.py
+│  │      │  │  │  │  envbuild.py
+│  │      │  │  │  │  meta.py
+│  │      │  │  │  │  wrappers.py
+│  │      │  │  │  │  _in_process.py
+│  │      │  │  │  │  __init__.py
+│  │      │  │  │  │  
+│  │      │  │  │  └─__pycache__
+│  │      │  │  │          build.cpython-37.pyc
+│  │      │  │  │          check.cpython-37.pyc
+│  │      │  │  │          colorlog.cpython-37.pyc
+│  │      │  │  │          compat.cpython-37.pyc
+│  │      │  │  │          dirtools.cpython-37.pyc
+│  │      │  │  │          envbuild.cpython-37.pyc
+│  │      │  │  │          meta.cpython-37.pyc
+│  │      │  │  │          wrappers.cpython-37.pyc
+│  │      │  │  │          _in_process.cpython-37.pyc
+│  │      │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │          
+│  │      │  │  ├─pkg_resources
+│  │      │  │  │  │  py31compat.py
+│  │      │  │  │  │  __init__.py
+│  │      │  │  │  │  
+│  │      │  │  │  └─__pycache__
+│  │      │  │  │          py31compat.cpython-37.pyc
+│  │      │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │          
+│  │      │  │  ├─progress
+│  │      │  │  │  │  bar.py
+│  │      │  │  │  │  counter.py
+│  │      │  │  │  │  spinner.py
+│  │      │  │  │  │  __init__.py
+│  │      │  │  │  │  
+│  │      │  │  │  └─__pycache__
+│  │      │  │  │          bar.cpython-37.pyc
+│  │      │  │  │          counter.cpython-37.pyc
+│  │      │  │  │          spinner.cpython-37.pyc
+│  │      │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │          
+│  │      │  │  ├─pytoml
+│  │      │  │  │  │  core.py
+│  │      │  │  │  │  parser.py
+│  │      │  │  │  │  test.py
+│  │      │  │  │  │  utils.py
+│  │      │  │  │  │  writer.py
+│  │      │  │  │  │  __init__.py
+│  │      │  │  │  │  
+│  │      │  │  │  └─__pycache__
+│  │      │  │  │          core.cpython-37.pyc
+│  │      │  │  │          parser.cpython-37.pyc
+│  │      │  │  │          test.cpython-37.pyc
+│  │      │  │  │          utils.cpython-37.pyc
+│  │      │  │  │          writer.cpython-37.pyc
+│  │      │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │          
+│  │      │  │  ├─requests
+│  │      │  │  │  │  adapters.py
+│  │      │  │  │  │  api.py
+│  │      │  │  │  │  auth.py
+│  │      │  │  │  │  certs.py
+│  │      │  │  │  │  compat.py
+│  │      │  │  │  │  cookies.py
+│  │      │  │  │  │  exceptions.py
+│  │      │  │  │  │  help.py
+│  │      │  │  │  │  hooks.py
+│  │      │  │  │  │  models.py
+│  │      │  │  │  │  packages.py
+│  │      │  │  │  │  sessions.py
+│  │      │  │  │  │  status_codes.py
+│  │      │  │  │  │  structures.py
+│  │      │  │  │  │  utils.py
+│  │      │  │  │  │  _internal_utils.py
+│  │      │  │  │  │  __init__.py
+│  │      │  │  │  │  __version__.py
+│  │      │  │  │  │  
+│  │      │  │  │  └─__pycache__
+│  │      │  │  │          adapters.cpython-37.pyc
+│  │      │  │  │          api.cpython-37.pyc
+│  │      │  │  │          auth.cpython-37.pyc
+│  │      │  │  │          certs.cpython-37.pyc
+│  │      │  │  │          compat.cpython-37.pyc
+│  │      │  │  │          cookies.cpython-37.pyc
+│  │      │  │  │          exceptions.cpython-37.pyc
+│  │      │  │  │          help.cpython-37.pyc
+│  │      │  │  │          hooks.cpython-37.pyc
+│  │      │  │  │          models.cpython-37.pyc
+│  │      │  │  │          packages.cpython-37.pyc
+│  │      │  │  │          sessions.cpython-37.pyc
+│  │      │  │  │          status_codes.cpython-37.pyc
+│  │      │  │  │          structures.cpython-37.pyc
+│  │      │  │  │          utils.cpython-37.pyc
+│  │      │  │  │          _internal_utils.cpython-37.pyc
+│  │      │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │          __version__.cpython-37.pyc
+│  │      │  │  │          
+│  │      │  │  ├─urllib3
+│  │      │  │  │  │  connection.py
+│  │      │  │  │  │  connectionpool.py
+│  │      │  │  │  │  exceptions.py
+│  │      │  │  │  │  fields.py
+│  │      │  │  │  │  filepost.py
+│  │      │  │  │  │  poolmanager.py
+│  │      │  │  │  │  request.py
+│  │      │  │  │  │  response.py
+│  │      │  │  │  │  _collections.py
+│  │      │  │  │  │  __init__.py
+│  │      │  │  │  │  
+│  │      │  │  │  ├─contrib
+│  │      │  │  │  │  │  appengine.py
+│  │      │  │  │  │  │  ntlmpool.py
+│  │      │  │  │  │  │  pyopenssl.py
+│  │      │  │  │  │  │  securetransport.py
+│  │      │  │  │  │  │  socks.py
+│  │      │  │  │  │  │  _appengine_environ.py
+│  │      │  │  │  │  │  __init__.py
+│  │      │  │  │  │  │  
+│  │      │  │  │  │  ├─_securetransport
+│  │      │  │  │  │  │  │  bindings.py
+│  │      │  │  │  │  │  │  low_level.py
+│  │      │  │  │  │  │  │  __init__.py
+│  │      │  │  │  │  │  │  
+│  │      │  │  │  │  │  └─__pycache__
+│  │      │  │  │  │  │          bindings.cpython-37.pyc
+│  │      │  │  │  │  │          low_level.cpython-37.pyc
+│  │      │  │  │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │  │  │          
+│  │      │  │  │  │  └─__pycache__
+│  │      │  │  │  │          appengine.cpython-37.pyc
+│  │      │  │  │  │          ntlmpool.cpython-37.pyc
+│  │      │  │  │  │          pyopenssl.cpython-37.pyc
+│  │      │  │  │  │          securetransport.cpython-37.pyc
+│  │      │  │  │  │          socks.cpython-37.pyc
+│  │      │  │  │  │          _appengine_environ.cpython-37.pyc
+│  │      │  │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │  │          
+│  │      │  │  │  ├─packages
+│  │      │  │  │  │  │  six.py
+│  │      │  │  │  │  │  __init__.py
+│  │      │  │  │  │  │  
+│  │      │  │  │  │  ├─backports
+│  │      │  │  │  │  │  │  makefile.py
+│  │      │  │  │  │  │  │  __init__.py
+│  │      │  │  │  │  │  │  
+│  │      │  │  │  │  │  └─__pycache__
+│  │      │  │  │  │  │          makefile.cpython-37.pyc
+│  │      │  │  │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │  │  │          
+│  │      │  │  │  │  ├─ssl_match_hostname
+│  │      │  │  │  │  │  │  _implementation.py
+│  │      │  │  │  │  │  │  __init__.py
+│  │      │  │  │  │  │  │  
+│  │      │  │  │  │  │  └─__pycache__
+│  │      │  │  │  │  │          _implementation.cpython-37.pyc
+│  │      │  │  │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │  │  │          
+│  │      │  │  │  │  └─__pycache__
+│  │      │  │  │  │          six.cpython-37.pyc
+│  │      │  │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │  │          
+│  │      │  │  │  ├─util
+│  │      │  │  │  │  │  connection.py
+│  │      │  │  │  │  │  queue.py
+│  │      │  │  │  │  │  request.py
+│  │      │  │  │  │  │  response.py
+│  │      │  │  │  │  │  retry.py
+│  │      │  │  │  │  │  ssl_.py
+│  │      │  │  │  │  │  timeout.py
+│  │      │  │  │  │  │  url.py
+│  │      │  │  │  │  │  wait.py
+│  │      │  │  │  │  │  __init__.py
+│  │      │  │  │  │  │  
+│  │      │  │  │  │  └─__pycache__
+│  │      │  │  │  │          connection.cpython-37.pyc
+│  │      │  │  │  │          queue.cpython-37.pyc
+│  │      │  │  │  │          request.cpython-37.pyc
+│  │      │  │  │  │          response.cpython-37.pyc
+│  │      │  │  │  │          retry.cpython-37.pyc
+│  │      │  │  │  │          ssl_.cpython-37.pyc
+│  │      │  │  │  │          timeout.cpython-37.pyc
+│  │      │  │  │  │          url.cpython-37.pyc
+│  │      │  │  │  │          wait.cpython-37.pyc
+│  │      │  │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │  │          
+│  │      │  │  │  └─__pycache__
+│  │      │  │  │          connection.cpython-37.pyc
+│  │      │  │  │          connectionpool.cpython-37.pyc
+│  │      │  │  │          exceptions.cpython-37.pyc
+│  │      │  │  │          fields.cpython-37.pyc
+│  │      │  │  │          filepost.cpython-37.pyc
+│  │      │  │  │          poolmanager.cpython-37.pyc
+│  │      │  │  │          request.cpython-37.pyc
+│  │      │  │  │          response.cpython-37.pyc
+│  │      │  │  │          _collections.cpython-37.pyc
+│  │      │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │          
+│  │      │  │  ├─webencodings
+│  │      │  │  │  │  labels.py
+│  │      │  │  │  │  mklabels.py
+│  │      │  │  │  │  tests.py
+│  │      │  │  │  │  x_user_defined.py
+│  │      │  │  │  │  __init__.py
+│  │      │  │  │  │  
+│  │      │  │  │  └─__pycache__
+│  │      │  │  │          labels.cpython-37.pyc
+│  │      │  │  │          mklabels.cpython-37.pyc
+│  │      │  │  │          tests.cpython-37.pyc
+│  │      │  │  │          x_user_defined.cpython-37.pyc
+│  │      │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │          
+│  │      │  │  └─__pycache__
+│  │      │  │          appdirs.cpython-37.pyc
+│  │      │  │          contextlib2.cpython-37.pyc
+│  │      │  │          distro.cpython-37.pyc
+│  │      │  │          ipaddress.cpython-37.pyc
+│  │      │  │          pyparsing.cpython-37.pyc
+│  │      │  │          retrying.cpython-37.pyc
+│  │      │  │          six.cpython-37.pyc
+│  │      │  │          __init__.cpython-37.pyc
+│  │      │  │          
+│  │      │  └─__pycache__
+│  │      │          __init__.cpython-37.pyc
+│  │      │          __main__.cpython-37.pyc
+│  │      │          
+│  │      ├─pip-20.0.2.dist-info
+│  │      │      entry_points.txt
+│  │      │      INSTALLER
+│  │      │      LICENSE.txt
+│  │      │      METADATA
+│  │      │      RECORD
+│  │      │      top_level.txt
+│  │      │      WHEEL
+│  │      │      
+│  │      ├─pkg_resources
+│  │      │  │  py31compat.py
+│  │      │  │  __init__.py
+│  │      │  │  
+│  │      │  ├─extern
+│  │      │  │  │  __init__.py
+│  │      │  │  │  
+│  │      │  │  └─__pycache__
+│  │      │  │          __init__.cpython-37.pyc
+│  │      │  │          
+│  │      │  ├─_vendor
+│  │      │  │  │  appdirs.py
+│  │      │  │  │  pyparsing.py
+│  │      │  │  │  six.py
+│  │      │  │  │  __init__.py
+│  │      │  │  │  
+│  │      │  │  ├─packaging
+│  │      │  │  │  │  markers.py
+│  │      │  │  │  │  requirements.py
+│  │      │  │  │  │  specifiers.py
+│  │      │  │  │  │  utils.py
+│  │      │  │  │  │  version.py
+│  │      │  │  │  │  _compat.py
+│  │      │  │  │  │  _structures.py
+│  │      │  │  │  │  __about__.py
+│  │      │  │  │  │  __init__.py
+│  │      │  │  │  │  
+│  │      │  │  │  └─__pycache__
+│  │      │  │  │          markers.cpython-37.pyc
+│  │      │  │  │          requirements.cpython-37.pyc
+│  │      │  │  │          specifiers.cpython-37.pyc
+│  │      │  │  │          utils.cpython-37.pyc
+│  │      │  │  │          version.cpython-37.pyc
+│  │      │  │  │          _compat.cpython-37.pyc
+│  │      │  │  │          _structures.cpython-37.pyc
+│  │      │  │  │          __about__.cpython-37.pyc
+│  │      │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │          
+│  │      │  │  └─__pycache__
+│  │      │  │          appdirs.cpython-37.pyc
+│  │      │  │          pyparsing.cpython-37.pyc
+│  │      │  │          six.cpython-37.pyc
+│  │      │  │          __init__.cpython-37.pyc
+│  │      │  │          
+│  │      │  └─__pycache__
+│  │      │          py31compat.cpython-37.pyc
+│  │      │          __init__.cpython-37.pyc
+│  │      │          
+│  │      ├─pydantic
+│  │      │  │  alias_generators.py
+│  │      │  │  class_validators.py
+│  │      │  │  color.py
+│  │      │  │  config.py
+│  │      │  │  dataclasses.py
+│  │      │  │  datetime_parse.py
+│  │      │  │  decorator.py
+│  │      │  │  env_settings.py
+│  │      │  │  errors.py
+│  │      │  │  error_wrappers.py
+│  │      │  │  fields.py
+│  │      │  │  functional_serializers.py
+│  │      │  │  functional_validators.py
+│  │      │  │  generics.py
+│  │      │  │  json.py
+│  │      │  │  json_schema.py
+│  │      │  │  main.py
+│  │      │  │  mypy.py
+│  │      │  │  networks.py
+│  │      │  │  parse.py
+│  │      │  │  py.typed
+│  │      │  │  root_model.py
+│  │      │  │  schema.py
+│  │      │  │  tools.py
+│  │      │  │  types.py
+│  │      │  │  type_adapter.py
+│  │      │  │  typing.py
+│  │      │  │  utils.py
+│  │      │  │  validate_call.py
+│  │      │  │  validators.py
+│  │      │  │  version.py
+│  │      │  │  warnings.py
+│  │      │  │  _migration.py
+│  │      │  │  __init__.py
+│  │      │  │  
+│  │      │  ├─deprecated
+│  │      │  │  │  class_validators.py
+│  │      │  │  │  config.py
+│  │      │  │  │  copy_internals.py
+│  │      │  │  │  decorator.py
+│  │      │  │  │  json.py
+│  │      │  │  │  parse.py
+│  │      │  │  │  tools.py
+│  │      │  │  │  __init__.py
+│  │      │  │  │  
+│  │      │  │  └─__pycache__
+│  │      │  │          class_validators.cpython-37.pyc
+│  │      │  │          config.cpython-37.pyc
+│  │      │  │          copy_internals.cpython-37.pyc
+│  │      │  │          decorator.cpython-37.pyc
+│  │      │  │          json.cpython-37.pyc
+│  │      │  │          parse.cpython-37.pyc
+│  │      │  │          tools.cpython-37.pyc
+│  │      │  │          __init__.cpython-37.pyc
+│  │      │  │          
+│  │      │  ├─v1
+│  │      │  │  │  annotated_types.py
+│  │      │  │  │  class_validators.py
+│  │      │  │  │  color.py
+│  │      │  │  │  config.py
+│  │      │  │  │  dataclasses.py
+│  │      │  │  │  datetime_parse.py
+│  │      │  │  │  decorator.py
+│  │      │  │  │  env_settings.py
+│  │      │  │  │  errors.py
+│  │      │  │  │  error_wrappers.py
+│  │      │  │  │  fields.py
+│  │      │  │  │  generics.py
+│  │      │  │  │  json.py
+│  │      │  │  │  main.py
+│  │      │  │  │  mypy.py
+│  │      │  │  │  networks.py
+│  │      │  │  │  parse.py
+│  │      │  │  │  py.typed
+│  │      │  │  │  schema.py
+│  │      │  │  │  tools.py
+│  │      │  │  │  types.py
+│  │      │  │  │  typing.py
+│  │      │  │  │  utils.py
+│  │      │  │  │  validators.py
+│  │      │  │  │  version.py
+│  │      │  │  │  _hypothesis_plugin.py
+│  │      │  │  │  __init__.py
+│  │      │  │  │  
+│  │      │  │  └─__pycache__
+│  │      │  │          annotated_types.cpython-37.pyc
+│  │      │  │          class_validators.cpython-37.pyc
+│  │      │  │          color.cpython-37.pyc
+│  │      │  │          config.cpython-37.pyc
+│  │      │  │          dataclasses.cpython-37.pyc
+│  │      │  │          datetime_parse.cpython-37.pyc
+│  │      │  │          decorator.cpython-37.pyc
+│  │      │  │          env_settings.cpython-37.pyc
+│  │      │  │          errors.cpython-37.pyc
+│  │      │  │          error_wrappers.cpython-37.pyc
+│  │      │  │          fields.cpython-37.pyc
+│  │      │  │          generics.cpython-37.pyc
+│  │      │  │          json.cpython-37.pyc
+│  │      │  │          main.cpython-37.pyc
+│  │      │  │          mypy.cpython-37.pyc
+│  │      │  │          networks.cpython-37.pyc
+│  │      │  │          parse.cpython-37.pyc
+│  │      │  │          schema.cpython-37.pyc
+│  │      │  │          tools.cpython-37.pyc
+│  │      │  │          types.cpython-37.pyc
+│  │      │  │          typing.cpython-37.pyc
+│  │      │  │          utils.cpython-37.pyc
+│  │      │  │          validators.cpython-37.pyc
+│  │      │  │          version.cpython-37.pyc
+│  │      │  │          _hypothesis_plugin.cpython-37.pyc
+│  │      │  │          __init__.cpython-37.pyc
+│  │      │  │          
+│  │      │  ├─_internal
+│  │      │  │  │  _annotated_handlers.py
+│  │      │  │  │  _config.py
+│  │      │  │  │  _core_metadata.py
+│  │      │  │  │  _core_utils.py
+│  │      │  │  │  _dataclasses.py
+│  │      │  │  │  _decorators.py
+│  │      │  │  │  _decorators_v1.py
+│  │      │  │  │  _discriminated_union.py
+│  │      │  │  │  _fields.py
+│  │      │  │  │  _forward_ref.py
+│  │      │  │  │  _generate_schema.py
+│  │      │  │  │  _generics.py
+│  │      │  │  │  _internal_dataclass.py
+│  │      │  │  │  _known_annotated_metadata.py
+│  │      │  │  │  _mock_validator.py
+│  │      │  │  │  _model_construction.py
+│  │      │  │  │  _repr.py
+│  │      │  │  │  _schema_generation_shared.py
+│  │      │  │  │  _std_types_schema.py
+│  │      │  │  │  _typing_extra.py
+│  │      │  │  │  _utils.py
+│  │      │  │  │  _validate_call.py
+│  │      │  │  │  _validators.py
+│  │      │  │  │  __init__.py
+│  │      │  │  │  
+│  │      │  │  └─__pycache__
+│  │      │  │          _annotated_handlers.cpython-37.pyc
+│  │      │  │          _config.cpython-37.pyc
+│  │      │  │          _core_metadata.cpython-37.pyc
+│  │      │  │          _core_utils.cpython-37.pyc
+│  │      │  │          _dataclasses.cpython-37.pyc
+│  │      │  │          _decorators.cpython-37.pyc
+│  │      │  │          _decorators_v1.cpython-37.pyc
+│  │      │  │          _discriminated_union.cpython-37.pyc
+│  │      │  │          _fields.cpython-37.pyc
+│  │      │  │          _forward_ref.cpython-37.pyc
+│  │      │  │          _generate_schema.cpython-37.pyc
+│  │      │  │          _generics.cpython-37.pyc
+│  │      │  │          _internal_dataclass.cpython-37.pyc
+│  │      │  │          _known_annotated_metadata.cpython-37.pyc
+│  │      │  │          _mock_validator.cpython-37.pyc
+│  │      │  │          _model_construction.cpython-37.pyc
+│  │      │  │          _repr.cpython-37.pyc
+│  │      │  │          _schema_generation_shared.cpython-37.pyc
+│  │      │  │          _std_types_schema.cpython-37.pyc
+│  │      │  │          _typing_extra.cpython-37.pyc
+│  │      │  │          _utils.cpython-37.pyc
+│  │      │  │          _validate_call.cpython-37.pyc
+│  │      │  │          _validators.cpython-37.pyc
+│  │      │  │          __init__.cpython-37.pyc
+│  │      │  │          
+│  │      │  └─__pycache__
+│  │      │          alias_generators.cpython-37.pyc
+│  │      │          class_validators.cpython-37.pyc
+│  │      │          color.cpython-37.pyc
+│  │      │          config.cpython-37.pyc
+│  │      │          dataclasses.cpython-37.pyc
+│  │      │          datetime_parse.cpython-37.pyc
+│  │      │          decorator.cpython-37.pyc
+│  │      │          env_settings.cpython-37.pyc
+│  │      │          errors.cpython-37.pyc
+│  │      │          error_wrappers.cpython-37.pyc
+│  │      │          fields.cpython-37.pyc
+│  │      │          functional_serializers.cpython-37.pyc
+│  │      │          functional_validators.cpython-37.pyc
+│  │      │          generics.cpython-37.pyc
+│  │      │          json.cpython-37.pyc
+│  │      │          json_schema.cpython-37.pyc
+│  │      │          main.cpython-37.pyc
+│  │      │          mypy.cpython-37.pyc
+│  │      │          networks.cpython-37.pyc
+│  │      │          parse.cpython-37.pyc
+│  │      │          root_model.cpython-37.pyc
+│  │      │          schema.cpython-37.pyc
+│  │      │          tools.cpython-37.pyc
+│  │      │          types.cpython-37.pyc
+│  │      │          type_adapter.cpython-37.pyc
+│  │      │          typing.cpython-37.pyc
+│  │      │          utils.cpython-37.pyc
+│  │      │          validate_call.cpython-37.pyc
+│  │      │          validators.cpython-37.pyc
+│  │      │          version.cpython-37.pyc
+│  │      │          warnings.cpython-37.pyc
+│  │      │          _migration.cpython-37.pyc
+│  │      │          __init__.cpython-37.pyc
+│  │      │          
+│  │      ├─pydantic-2.1.1.dist-info
+│  │      │  │  INSTALLER
+│  │      │  │  METADATA
+│  │      │  │  RECORD
+│  │      │  │  WHEEL
+│  │      │  │  
+│  │      │  └─licenses
+│  │      │          LICENSE
+│  │      │          
+│  │      ├─pydantic_core
+│  │      │  │  core_schema.py
+│  │      │  │  py.typed
+│  │      │  │  _pydantic_core.pyd
+│  │      │  │  _pydantic_core.pyi
+│  │      │  │  __init__.py
+│  │      │  │  
+│  │      │  └─__pycache__
+│  │      │          core_schema.cpython-37.pyc
+│  │      │          __init__.cpython-37.pyc
+│  │      │          
+│  │      ├─pydantic_core-2.4.0.dist-info
+│  │      │  │  INSTALLER
+│  │      │  │  METADATA
+│  │      │  │  RECORD
+│  │      │  │  WHEEL
+│  │      │  │  
+│  │      │  └─license_files
+│  │      │          LICENSE
+│  │      │          
+│  │      ├─PyMuPDF-1.22.5.dist-info
+│  │      │      COPYING
+│  │      │      INSTALLER
+│  │      │      METADATA
+│  │      │      RECORD
+│  │      │      top_level.txt
+│  │      │      WHEEL
+│  │      │      
+│  │      ├─python_multipart-0.0.6.dist-info
+│  │      │  │  INSTALLER
+│  │      │  │  METADATA
+│  │      │  │  RECORD
+│  │      │  │  WHEEL
+│  │      │  │  
+│  │      │  └─licenses
+│  │      │          LICENSE.txt
+│  │      │          
+│  │      ├─requests
+│  │      │  │  adapters.py
+│  │      │  │  api.py
+│  │      │  │  auth.py
+│  │      │  │  certs.py
+│  │      │  │  compat.py
+│  │      │  │  cookies.py
+│  │      │  │  exceptions.py
+│  │      │  │  help.py
+│  │      │  │  hooks.py
+│  │      │  │  models.py
+│  │      │  │  packages.py
+│  │      │  │  sessions.py
+│  │      │  │  status_codes.py
+│  │      │  │  structures.py
+│  │      │  │  utils.py
+│  │      │  │  _internal_utils.py
+│  │      │  │  __init__.py
+│  │      │  │  __version__.py
+│  │      │  │  
+│  │      │  └─__pycache__
+│  │      │          adapters.cpython-37.pyc
+│  │      │          api.cpython-37.pyc
+│  │      │          auth.cpython-37.pyc
+│  │      │          certs.cpython-37.pyc
+│  │      │          compat.cpython-37.pyc
+│  │      │          cookies.cpython-37.pyc
+│  │      │          exceptions.cpython-37.pyc
+│  │      │          help.cpython-37.pyc
+│  │      │          hooks.cpython-37.pyc
+│  │      │          models.cpython-37.pyc
+│  │      │          packages.cpython-37.pyc
+│  │      │          sessions.cpython-37.pyc
+│  │      │          status_codes.cpython-37.pyc
+│  │      │          structures.cpython-37.pyc
+│  │      │          utils.cpython-37.pyc
+│  │      │          _internal_utils.cpython-37.pyc
+│  │      │          __init__.cpython-37.pyc
+│  │      │          __version__.cpython-37.pyc
+│  │      │          
+│  │      ├─requests-2.31.0.dist-info
+│  │      │      INSTALLER
+│  │      │      LICENSE
+│  │      │      METADATA
+│  │      │      RECORD
+│  │      │      top_level.txt
+│  │      │      WHEEL
+│  │      │      
+│  │      ├─setuptools
+│  │      │  │  archive_util.py
+│  │      │  │  build_meta.py
+│  │      │  │  cli-32.exe
+│  │      │  │  cli-64.exe
+│  │      │  │  cli.exe
+│  │      │  │  config.py
+│  │      │  │  depends.py
+│  │      │  │  dep_util.py
+│  │      │  │  dist.py
+│  │      │  │  errors.py
+│  │      │  │  extension.py
+│  │      │  │  glob.py
+│  │      │  │  gui-32.exe
+│  │      │  │  gui-64.exe
+│  │      │  │  gui.exe
+│  │      │  │  installer.py
+│  │      │  │  launch.py
+│  │      │  │  lib2to3_ex.py
+│  │      │  │  monkey.py
+│  │      │  │  msvc.py
+│  │      │  │  namespaces.py
+│  │      │  │  package_index.py
+│  │      │  │  py27compat.py
+│  │      │  │  py31compat.py
+│  │      │  │  py33compat.py
+│  │      │  │  py34compat.py
+│  │      │  │  sandbox.py
+│  │      │  │  script (dev).tmpl
+│  │      │  │  script.tmpl
+│  │      │  │  site-patch.py
+│  │      │  │  ssl_support.py
+│  │      │  │  unicode_utils.py
+│  │      │  │  version.py
+│  │      │  │  wheel.py
+│  │      │  │  windows_support.py
+│  │      │  │  _deprecation_warning.py
+│  │      │  │  _imp.py
+│  │      │  │  __init__.py
+│  │      │  │  
+│  │      │  ├─command
+│  │      │  │  │  alias.py
+│  │      │  │  │  bdist_egg.py
+│  │      │  │  │  bdist_rpm.py
+│  │      │  │  │  bdist_wininst.py
+│  │      │  │  │  build_clib.py
+│  │      │  │  │  build_ext.py
+│  │      │  │  │  build_py.py
+│  │      │  │  │  develop.py
+│  │      │  │  │  dist_info.py
+│  │      │  │  │  easy_install.py
+│  │      │  │  │  egg_info.py
+│  │      │  │  │  install.py
+│  │      │  │  │  install_egg_info.py
+│  │      │  │  │  install_lib.py
+│  │      │  │  │  install_scripts.py
+│  │      │  │  │  launcher manifest.xml
+│  │      │  │  │  py36compat.py
+│  │      │  │  │  register.py
+│  │      │  │  │  rotate.py
+│  │      │  │  │  saveopts.py
+│  │      │  │  │  sdist.py
+│  │      │  │  │  setopt.py
+│  │      │  │  │  test.py
+│  │      │  │  │  upload.py
+│  │      │  │  │  upload_docs.py
+│  │      │  │  │  __init__.py
+│  │      │  │  │  
+│  │      │  │  └─__pycache__
+│  │      │  │          alias.cpython-37.pyc
+│  │      │  │          bdist_egg.cpython-37.pyc
+│  │      │  │          bdist_rpm.cpython-37.pyc
+│  │      │  │          bdist_wininst.cpython-37.pyc
+│  │      │  │          build_clib.cpython-37.pyc
+│  │      │  │          build_ext.cpython-37.pyc
+│  │      │  │          build_py.cpython-37.pyc
+│  │      │  │          develop.cpython-37.pyc
+│  │      │  │          dist_info.cpython-37.pyc
+│  │      │  │          easy_install.cpython-37.pyc
+│  │      │  │          egg_info.cpython-37.pyc
+│  │      │  │          install.cpython-37.pyc
+│  │      │  │          install_egg_info.cpython-37.pyc
+│  │      │  │          install_lib.cpython-37.pyc
+│  │      │  │          install_scripts.cpython-37.pyc
+│  │      │  │          py36compat.cpython-37.pyc
+│  │      │  │          register.cpython-37.pyc
+│  │      │  │          rotate.cpython-37.pyc
+│  │      │  │          saveopts.cpython-37.pyc
+│  │      │  │          sdist.cpython-37.pyc
+│  │      │  │          setopt.cpython-37.pyc
+│  │      │  │          test.cpython-37.pyc
+│  │      │  │          upload.cpython-37.pyc
+│  │      │  │          upload_docs.cpython-37.pyc
+│  │      │  │          __init__.cpython-37.pyc
+│  │      │  │          
+│  │      │  ├─extern
+│  │      │  │  │  __init__.py
+│  │      │  │  │  
+│  │      │  │  └─__pycache__
+│  │      │  │          __init__.cpython-37.pyc
+│  │      │  │          
+│  │      │  ├─_vendor
+│  │      │  │  │  ordered_set.py
+│  │      │  │  │  pyparsing.py
+│  │      │  │  │  six.py
+│  │      │  │  │  __init__.py
+│  │      │  │  │  
+│  │      │  │  ├─packaging
+│  │      │  │  │  │  markers.py
+│  │      │  │  │  │  requirements.py
+│  │      │  │  │  │  specifiers.py
+│  │      │  │  │  │  tags.py
+│  │      │  │  │  │  utils.py
+│  │      │  │  │  │  version.py
+│  │      │  │  │  │  _compat.py
+│  │      │  │  │  │  _structures.py
+│  │      │  │  │  │  __about__.py
+│  │      │  │  │  │  __init__.py
+│  │      │  │  │  │  
+│  │      │  │  │  └─__pycache__
+│  │      │  │  │          markers.cpython-37.pyc
+│  │      │  │  │          requirements.cpython-37.pyc
+│  │      │  │  │          specifiers.cpython-37.pyc
+│  │      │  │  │          tags.cpython-37.pyc
+│  │      │  │  │          utils.cpython-37.pyc
+│  │      │  │  │          version.cpython-37.pyc
+│  │      │  │  │          _compat.cpython-37.pyc
+│  │      │  │  │          _structures.cpython-37.pyc
+│  │      │  │  │          __about__.cpython-37.pyc
+│  │      │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │          
+│  │      │  │  └─__pycache__
+│  │      │  │          ordered_set.cpython-37.pyc
+│  │      │  │          pyparsing.cpython-37.pyc
+│  │      │  │          six.cpython-37.pyc
+│  │      │  │          __init__.cpython-37.pyc
+│  │      │  │          
+│  │      │  └─__pycache__
+│  │      │          archive_util.cpython-37.pyc
+│  │      │          build_meta.cpython-37.pyc
+│  │      │          config.cpython-37.pyc
+│  │      │          depends.cpython-37.pyc
+│  │      │          dep_util.cpython-37.pyc
+│  │      │          dist.cpython-37.pyc
+│  │      │          errors.cpython-37.pyc
+│  │      │          extension.cpython-37.pyc
+│  │      │          glob.cpython-37.pyc
+│  │      │          installer.cpython-37.pyc
+│  │      │          launch.cpython-37.pyc
+│  │      │          lib2to3_ex.cpython-37.pyc
+│  │      │          monkey.cpython-37.pyc
+│  │      │          msvc.cpython-37.pyc
+│  │      │          namespaces.cpython-37.pyc
+│  │      │          package_index.cpython-37.pyc
+│  │      │          py27compat.cpython-37.pyc
+│  │      │          py31compat.cpython-37.pyc
+│  │      │          py33compat.cpython-37.pyc
+│  │      │          py34compat.cpython-37.pyc
+│  │      │          sandbox.cpython-37.pyc
+│  │      │          site-patch.cpython-37.pyc
+│  │      │          ssl_support.cpython-37.pyc
+│  │      │          unicode_utils.cpython-37.pyc
+│  │      │          version.cpython-37.pyc
+│  │      │          wheel.cpython-37.pyc
+│  │      │          windows_support.cpython-37.pyc
+│  │      │          _deprecation_warning.cpython-37.pyc
+│  │      │          _imp.cpython-37.pyc
+│  │      │          __init__.cpython-37.pyc
+│  │      │          
+│  │      ├─setuptools-44.1.0.dist-info
+│  │      │      dependency_links.txt
+│  │      │      entry_points.txt
+│  │      │      INSTALLER
+│  │      │      LICENSE
+│  │      │      METADATA
+│  │      │      RECORD
+│  │      │      top_level.txt
+│  │      │      WHEEL
+│  │      │      zip-safe
+│  │      │      
+│  │      ├─sniffio
+│  │      │  │  py.typed
+│  │      │  │  _impl.py
+│  │      │  │  _version.py
+│  │      │  │  __init__.py
+│  │      │  │  
+│  │      │  ├─_tests
+│  │      │  │  │  test_sniffio.py
+│  │      │  │  │  __init__.py
+│  │      │  │  │  
+│  │      │  │  └─__pycache__
+│  │      │  │          test_sniffio.cpython-37.pyc
+│  │      │  │          __init__.cpython-37.pyc
+│  │      │  │          
+│  │      │  └─__pycache__
+│  │      │          _impl.cpython-37.pyc
+│  │      │          _version.cpython-37.pyc
+│  │      │          __init__.cpython-37.pyc
+│  │      │          
+│  │      ├─sniffio-1.3.0.dist-info
+│  │      │      INSTALLER
+│  │      │      LICENSE
+│  │      │      LICENSE.APACHE2
+│  │      │      LICENSE.MIT
+│  │      │      METADATA
+│  │      │      RECORD
+│  │      │      top_level.txt
+│  │      │      WHEEL
+│  │      │      
+│  │      ├─soupsieve
+│  │      │  │  css_match.py
+│  │      │  │  css_parser.py
+│  │      │  │  css_types.py
+│  │      │  │  pretty.py
+│  │      │  │  py.typed
+│  │      │  │  util.py
+│  │      │  │  __init__.py
+│  │      │  │  __meta__.py
+│  │      │  │  
+│  │      │  └─__pycache__
+│  │      │          css_match.cpython-37.pyc
+│  │      │          css_parser.cpython-37.pyc
+│  │      │          css_types.cpython-37.pyc
+│  │      │          pretty.cpython-37.pyc
+│  │      │          util.cpython-37.pyc
+│  │      │          __init__.cpython-37.pyc
+│  │      │          __meta__.cpython-37.pyc
+│  │      │          
+│  │      ├─soupsieve-2.4.1.dist-info
+│  │      │  │  INSTALLER
+│  │      │  │  METADATA
+│  │      │  │  RECORD
+│  │      │  │  WHEEL
+│  │      │  │  
+│  │      │  └─licenses
+│  │      │          LICENSE.md
+│  │      │          
+│  │      ├─starlette
+│  │      │  │  applications.py
+│  │      │  │  authentication.py
+│  │      │  │  background.py
+│  │      │  │  concurrency.py
+│  │      │  │  config.py
+│  │      │  │  convertors.py
+│  │      │  │  datastructures.py
+│  │      │  │  endpoints.py
+│  │      │  │  exceptions.py
+│  │      │  │  formparsers.py
+│  │      │  │  py.typed
+│  │      │  │  requests.py
+│  │      │  │  responses.py
+│  │      │  │  routing.py
+│  │      │  │  schemas.py
+│  │      │  │  staticfiles.py
+│  │      │  │  status.py
+│  │      │  │  templating.py
+│  │      │  │  testclient.py
+│  │      │  │  types.py
+│  │      │  │  websockets.py
+│  │      │  │  _compat.py
+│  │      │  │  _utils.py
+│  │      │  │  __init__.py
+│  │      │  │  
+│  │      │  ├─middleware
+│  │      │  │  │  authentication.py
+│  │      │  │  │  base.py
+│  │      │  │  │  cors.py
+│  │      │  │  │  errors.py
+│  │      │  │  │  exceptions.py
+│  │      │  │  │  gzip.py
+│  │      │  │  │  httpsredirect.py
+│  │      │  │  │  sessions.py
+│  │      │  │  │  trustedhost.py
+│  │      │  │  │  wsgi.py
+│  │      │  │  │  __init__.py
+│  │      │  │  │  
+│  │      │  │  └─__pycache__
+│  │      │  │          authentication.cpython-37.pyc
+│  │      │  │          base.cpython-37.pyc
+│  │      │  │          cors.cpython-37.pyc
+│  │      │  │          errors.cpython-37.pyc
+│  │      │  │          exceptions.cpython-37.pyc
+│  │      │  │          gzip.cpython-37.pyc
+│  │      │  │          httpsredirect.cpython-37.pyc
+│  │      │  │          sessions.cpython-37.pyc
+│  │      │  │          trustedhost.cpython-37.pyc
+│  │      │  │          wsgi.cpython-37.pyc
+│  │      │  │          __init__.cpython-37.pyc
+│  │      │  │          
+│  │      │  └─__pycache__
+│  │      │          applications.cpython-37.pyc
+│  │      │          authentication.cpython-37.pyc
+│  │      │          background.cpython-37.pyc
+│  │      │          concurrency.cpython-37.pyc
+│  │      │          config.cpython-37.pyc
+│  │      │          convertors.cpython-37.pyc
+│  │      │          datastructures.cpython-37.pyc
+│  │      │          endpoints.cpython-37.pyc
+│  │      │          exceptions.cpython-37.pyc
+│  │      │          formparsers.cpython-37.pyc
+│  │      │          requests.cpython-37.pyc
+│  │      │          responses.cpython-37.pyc
+│  │      │          routing.cpython-37.pyc
+│  │      │          schemas.cpython-37.pyc
+│  │      │          staticfiles.cpython-37.pyc
+│  │      │          status.cpython-37.pyc
+│  │      │          templating.cpython-37.pyc
+│  │      │          testclient.cpython-37.pyc
+│  │      │          types.cpython-37.pyc
+│  │      │          websockets.cpython-37.pyc
+│  │      │          _compat.cpython-37.pyc
+│  │      │          _utils.cpython-37.pyc
+│  │      │          __init__.cpython-37.pyc
+│  │      │          
+│  │      ├─starlette-0.27.0.dist-info
+│  │      │  │  INSTALLER
+│  │      │  │  METADATA
+│  │      │  │  RECORD
+│  │      │  │  WHEEL
+│  │      │  │  
+│  │      │  └─licenses
+│  │      │          LICENSE.md
+│  │      │          
+│  │      ├─typing_extensions-4.7.1.dist-info
+│  │      │      INSTALLER
+│  │      │      LICENSE
+│  │      │      METADATA
+│  │      │      RECORD
+│  │      │      WHEEL
+│  │      │      
+│  │      ├─urllib3
+│  │      │  │  connection.py
+│  │      │  │  connectionpool.py
+│  │      │  │  exceptions.py
+│  │      │  │  fields.py
+│  │      │  │  filepost.py
+│  │      │  │  poolmanager.py
+│  │      │  │  py.typed
+│  │      │  │  response.py
+│  │      │  │  _base_connection.py
+│  │      │  │  _collections.py
+│  │      │  │  _request_methods.py
+│  │      │  │  _version.py
+│  │      │  │  __init__.py
+│  │      │  │  
+│  │      │  ├─contrib
+│  │      │  │  │  pyopenssl.py
+│  │      │  │  │  securetransport.py
+│  │      │  │  │  socks.py
+│  │      │  │  │  __init__.py
+│  │      │  │  │  
+│  │      │  │  ├─_securetransport
+│  │      │  │  │  │  bindings.py
+│  │      │  │  │  │  low_level.py
+│  │      │  │  │  │  __init__.py
+│  │      │  │  │  │  
+│  │      │  │  │  └─__pycache__
+│  │      │  │  │          bindings.cpython-37.pyc
+│  │      │  │  │          low_level.cpython-37.pyc
+│  │      │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │          
+│  │      │  │  └─__pycache__
+│  │      │  │          pyopenssl.cpython-37.pyc
+│  │      │  │          securetransport.cpython-37.pyc
+│  │      │  │          socks.cpython-37.pyc
+│  │      │  │          __init__.cpython-37.pyc
+│  │      │  │          
+│  │      │  ├─util
+│  │      │  │  │  connection.py
+│  │      │  │  │  proxy.py
+│  │      │  │  │  request.py
+│  │      │  │  │  response.py
+│  │      │  │  │  retry.py
+│  │      │  │  │  ssltransport.py
+│  │      │  │  │  ssl_.py
+│  │      │  │  │  ssl_match_hostname.py
+│  │      │  │  │  timeout.py
+│  │      │  │  │  url.py
+│  │      │  │  │  util.py
+│  │      │  │  │  wait.py
+│  │      │  │  │  __init__.py
+│  │      │  │  │  
+│  │      │  │  └─__pycache__
+│  │      │  │          connection.cpython-37.pyc
+│  │      │  │          proxy.cpython-37.pyc
+│  │      │  │          request.cpython-37.pyc
+│  │      │  │          response.cpython-37.pyc
+│  │      │  │          retry.cpython-37.pyc
+│  │      │  │          ssltransport.cpython-37.pyc
+│  │      │  │          ssl_.cpython-37.pyc
+│  │      │  │          ssl_match_hostname.cpython-37.pyc
+│  │      │  │          timeout.cpython-37.pyc
+│  │      │  │          url.cpython-37.pyc
+│  │      │  │          util.cpython-37.pyc
+│  │      │  │          wait.cpython-37.pyc
+│  │      │  │          __init__.cpython-37.pyc
+│  │      │  │          
+│  │      │  └─__pycache__
+│  │      │          connection.cpython-37.pyc
+│  │      │          connectionpool.cpython-37.pyc
+│  │      │          exceptions.cpython-37.pyc
+│  │      │          fields.cpython-37.pyc
+│  │      │          filepost.cpython-37.pyc
+│  │      │          poolmanager.cpython-37.pyc
+│  │      │          response.cpython-37.pyc
+│  │      │          _base_connection.cpython-37.pyc
+│  │      │          _collections.cpython-37.pyc
+│  │      │          _request_methods.cpython-37.pyc
+│  │      │          _version.cpython-37.pyc
+│  │      │          __init__.cpython-37.pyc
+│  │      │          
+│  │      ├─urllib3-2.0.4.dist-info
+│  │      │  │  INSTALLER
+│  │      │  │  METADATA
+│  │      │  │  RECORD
+│  │      │  │  WHEEL
+│  │      │  │  
+│  │      │  └─licenses
+│  │      │          LICENSE.txt
+│  │      │          
+│  │      ├─uuid-1.30-py3.7.egg-info
+│  │      │      dependency_links.txt
+│  │      │      installed-files.txt
+│  │      │      PKG-INFO
+│  │      │      SOURCES.txt
+│  │      │      top_level.txt
+│  │      │      
+│  │      ├─uvicorn
+│  │      │  │  config.py
+│  │      │  │  importer.py
+│  │      │  │  logging.py
+│  │      │  │  main.py
+│  │      │  │  py.typed
+│  │      │  │  server.py
+│  │      │  │  workers.py
+│  │      │  │  _subprocess.py
+│  │      │  │  _types.py
+│  │      │  │  __init__.py
+│  │      │  │  __main__.py
+│  │      │  │  
+│  │      │  ├─lifespan
+│  │      │  │  │  off.py
+│  │      │  │  │  on.py
+│  │      │  │  │  __init__.py
+│  │      │  │  │  
+│  │      │  │  └─__pycache__
+│  │      │  │          off.cpython-37.pyc
+│  │      │  │          on.cpython-37.pyc
+│  │      │  │          __init__.cpython-37.pyc
+│  │      │  │          
+│  │      │  ├─loops
+│  │      │  │  │  asyncio.py
+│  │      │  │  │  auto.py
+│  │      │  │  │  uvloop.py
+│  │      │  │  │  __init__.py
+│  │      │  │  │  
+│  │      │  │  └─__pycache__
+│  │      │  │          asyncio.cpython-37.pyc
+│  │      │  │          auto.cpython-37.pyc
+│  │      │  │          uvloop.cpython-37.pyc
+│  │      │  │          __init__.cpython-37.pyc
+│  │      │  │          
+│  │      │  ├─middleware
+│  │      │  │  │  asgi2.py
+│  │      │  │  │  message_logger.py
+│  │      │  │  │  proxy_headers.py
+│  │      │  │  │  wsgi.py
+│  │      │  │  │  __init__.py
+│  │      │  │  │  
+│  │      │  │  └─__pycache__
+│  │      │  │          asgi2.cpython-37.pyc
+│  │      │  │          message_logger.cpython-37.pyc
+│  │      │  │          proxy_headers.cpython-37.pyc
+│  │      │  │          wsgi.cpython-37.pyc
+│  │      │  │          __init__.cpython-37.pyc
+│  │      │  │          
+│  │      │  ├─protocols
+│  │      │  │  │  utils.py
+│  │      │  │  │  __init__.py
+│  │      │  │  │  
+│  │      │  │  ├─http
+│  │      │  │  │  │  auto.py
+│  │      │  │  │  │  flow_control.py
+│  │      │  │  │  │  h11_impl.py
+│  │      │  │  │  │  httptools_impl.py
+│  │      │  │  │  │  __init__.py
+│  │      │  │  │  │  
+│  │      │  │  │  └─__pycache__
+│  │      │  │  │          auto.cpython-37.pyc
+│  │      │  │  │          flow_control.cpython-37.pyc
+│  │      │  │  │          h11_impl.cpython-37.pyc
+│  │      │  │  │          httptools_impl.cpython-37.pyc
+│  │      │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │          
+│  │      │  │  ├─websockets
+│  │      │  │  │  │  auto.py
+│  │      │  │  │  │  websockets_impl.py
+│  │      │  │  │  │  wsproto_impl.py
+│  │      │  │  │  │  __init__.py
+│  │      │  │  │  │  
+│  │      │  │  │  └─__pycache__
+│  │      │  │  │          auto.cpython-37.pyc
+│  │      │  │  │          websockets_impl.cpython-37.pyc
+│  │      │  │  │          wsproto_impl.cpython-37.pyc
+│  │      │  │  │          __init__.cpython-37.pyc
+│  │      │  │  │          
+│  │      │  │  └─__pycache__
+│  │      │  │          utils.cpython-37.pyc
+│  │      │  │          __init__.cpython-37.pyc
+│  │      │  │          
+│  │      │  ├─supervisors
+│  │      │  │  │  basereload.py
+│  │      │  │  │  multiprocess.py
+│  │      │  │  │  statreload.py
+│  │      │  │  │  watchfilesreload.py
+│  │      │  │  │  watchgodreload.py
+│  │      │  │  │  __init__.py
+│  │      │  │  │  
+│  │      │  │  └─__pycache__
+│  │      │  │          basereload.cpython-37.pyc
+│  │      │  │          multiprocess.cpython-37.pyc
+│  │      │  │          statreload.cpython-37.pyc
+│  │      │  │          watchfilesreload.cpython-37.pyc
+│  │      │  │          watchgodreload.cpython-37.pyc
+│  │      │  │          __init__.cpython-37.pyc
+│  │      │  │          
+│  │      │  └─__pycache__
+│  │      │          config.cpython-37.pyc
+│  │      │          importer.cpython-37.pyc
+│  │      │          logging.cpython-37.pyc
+│  │      │          main.cpython-37.pyc
+│  │      │          server.cpython-37.pyc
+│  │      │          workers.cpython-37.pyc
+│  │      │          _subprocess.cpython-37.pyc
+│  │      │          _types.cpython-37.pyc
+│  │      │          __init__.cpython-37.pyc
+│  │      │          __main__.cpython-37.pyc
+│  │      │          
+│  │      ├─uvicorn-0.22.0.dist-info
+│  │      │  │  entry_points.txt
+│  │      │  │  INSTALLER
+│  │      │  │  METADATA
+│  │      │  │  RECORD
+│  │      │  │  WHEEL
+│  │      │  │  
+│  │      │  └─licenses
+│  │      │          LICENSE.md
+│  │      │          
+│  │      ├─zipp
+│  │      │  │  py310compat.py
+│  │      │  │  __init__.py
+│  │      │  │  
+│  │      │  └─__pycache__
+│  │      │          py310compat.cpython-37.pyc
+│  │      │          __init__.cpython-37.pyc
+│  │      │          
+│  │      ├─zipp-3.15.0.dist-info
+│  │      │      INSTALLER
+│  │      │      LICENSE
+│  │      │      METADATA
+│  │      │      RECORD
+│  │      │      top_level.txt
+│  │      │      WHEEL
+│  │      │      
+│  │      └─__pycache__
+│  │              easy_install.cpython-37.pyc
+│  │              typing_extensions.cpython-37.pyc
+│  │              
+│  └─Scripts
+│          activate
+│          activate.bat
+│          Activate.ps1
+│          deactivate.bat
+│          easy_install-3.7.exe
+│          easy_install.exe
+│          normalizer.exe
+│          pip.exe
+│          pip3.7.exe
+│          pip3.exe
+│          python.exe
+│          pythonw.exe
+│          uvicorn.exe
+│          
+└─web
+    │  webServer.py
+    │  
+    └─__pycache__
+            webServer.cpython-37.pyc
+            

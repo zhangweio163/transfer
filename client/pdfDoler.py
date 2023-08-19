@@ -3,8 +3,8 @@ import sys
 
 import fitz
 
-from apidemo.TranslateDemo import createRequest
-from client.AIclient import AiClient
+from API.openai.AIclient import AiClient
+from API.youdao.TranslateDemo import createRequest
 from seting import seting
 
 BaseFontDir = "client/fonts/"
@@ -30,6 +30,7 @@ class translate:
         self.step = 0
         self.c = 0
         self.page = None
+        self.parm: translateParams
 
     def progress_bar(self):
         sys.stdout.flush()
@@ -37,9 +38,11 @@ class translate:
         print("正在翻译: {}%: ".format(int(self.i)), "▋" * (int(self.i) // 2), end="\n")
 
     def translate_and_generate_pdf(self, pram: translateParams):
-        if translateParams.isAi == 1:
+        self.parm = pram
+        print(self.parm.isAi)
+        if self.parm.isAi == 1:
             print("选择AI翻译")
-        elif translateParams.isAi == 0:
+        elif self.parm.isAi == 0:
             print("选择有道翻译")
         self.ai = AiClient(seting.OpenAiSettings.Url, seting.OpenAiSettings.key)
         self.doc = fitz.open(pram.inPath)
@@ -119,9 +122,9 @@ class translate:
                 fontsize /= pc
                 ascender /= pc
                 color /= pc
-                if translateParams.isAi == 1:
+                if self.parm.isAi == 1:
                     text = u"{}".format(self.ai.getTranslation(text))
-                elif translateParams.isAi == 0:
+                elif self.parm.isAi == 0:
                     try:
                         text = u"{}".format(createRequest(text))
                     except Exception as e:
