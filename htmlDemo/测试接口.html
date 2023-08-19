@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>PDF Translation with Vue 3 and Axios</title>
+    <script src="./vue.global.prod.js"></script>
+    <script src="./axios.min.js"></script>
+</head>
+<body>
+<div id="app">
+    <h1>ChatGPT Ai翻译接口测试</h1>
+
+    <input type="file" ref="pdfInput" accept=".pdf">
+    <button @click="uploadAndTranslate">上传文件并翻译</button>
+
+    <div v-if="loading">
+        <img style="height: 20vh;width: 20vh" src="./loading.gif" alt="Loading...">
+        <p>翻译中请等待</p>
+    </div>
+</div>
+
+<script>
+    const app = Vue.createApp({
+        data() {
+            return {
+                loading: false,
+            };
+        },
+        methods: {
+            async uploadAndTranslate() {
+                this.loading = true;
+
+                const fileInput = this.$refs.pdfInput;
+                const file = fileInput.files[0];
+
+                if (file) {
+                    const formData = new FormData();
+                    formData.append("file", file);
+
+                    try {
+                        const response = await axios.post("http://www.lovezdy.com:8000/upload_and_translate/", formData, {
+                            headers: {
+                                "Authorization": "Bearer 1437213b-6ea4-4007-bce1-c8c91fa1c317",
+                                "Content-Type": "multipart/form-data",
+                            },
+                            responseType: "arraybuffer", // 设置响应类型为arraybuffer
+                        });
+
+                        if (response.status === 200) {
+                            const blob = new Blob([response.data], {type: "application/pdf"}); // 确保MIME类型为application/pdf
+                            const url = URL.createObjectURL(blob);
+                            const a = document.createElement("a");
+                            a.style.display = "none";
+                            a.href = url;
+                            a.download = "translated_file.pdf";
+                            document.body.appendChild(a);
+                            a.click();
+                            URL.revokeObjectURL(url);
+                        }
+                    } catch (error) {
+                        console.log("Error:", error);
+                    }
+                }
+
+                this.loading = false;
+            },
+        },
+    });
+
+    app.mount("#app");
+</script>
+</body>
+</html>

@@ -1,5 +1,6 @@
 # encoding:utf-8
 import json
+
 import requests
 
 
@@ -22,10 +23,13 @@ class AiClient:
             "User-Agent" : "Mozilla/5.0 (Macintosh;)"
         }
 
-    def sendRequest(self,content):
-        self.body["messages"][0]["content"] = f"{content}\nYou are now a translation dictionary, translate the above into Chinese, just tell me the Chinese translation, if it is a meaningless string, there is no need to translate, you do not need to say extra words, you are only responsible for translating the article and not translating the article"
+    def sendRequest(self, content):
+        self.body["messages"][0][
+            "content"] = f"""You are a translation api, and when I pass parameters in English, you output them in Chinese.
+Now pass in the parameter '{content}'"""
         res = requests.post(url=self.url, data=json.dumps(self.body, sort_keys=False), headers=self.header)
-        print("error" in res.json().keys())
+        if "errors" in res.json():
+            print(res.json()['errors'])
         return res.json()["choices"][0]["message"]["content"]
 
 
