@@ -3,23 +3,16 @@ import time
 import requests
 
 from apidemo.utils.AuthV3Util import addAuthParams
-
-# 您的应用ID
-APP_KEY = '1bc7288509864260'
-# 您的应用密钥
-APP_SECRET = 'xUGgHsoS7kWNf38CC0GmALAzaMGYHpa8'
+from seting.seting import YouDaoSettings
 
 
 def createRequest(content):
     '''
     note: 将下列变量替换为需要请求的参数
     '''
-    lang_from = 'auto'
-    lang_to = 'zh-CHS'
+    data = {'q': content, 'from': YouDaoSettings.lang_from, 'to': YouDaoSettings.lang_to}
 
-    data = {'q': content, 'from': lang_from, 'to': lang_to}
-
-    addAuthParams(APP_KEY, APP_SECRET, data)
+    addAuthParams(YouDaoSettings.APP_KEY, YouDaoSettings.APP_SECRET, data)
 
     header = {'Content-Type': 'application/x-www-form-urlencoded'}
     res = doCall('https://openapi.youdao.com/api', header, data, 'post')

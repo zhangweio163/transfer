@@ -5,6 +5,7 @@ import fitz
 
 from apidemo.TranslateDemo import createRequest
 from client.AIclient import AiClient
+from seting import seting
 
 BaseFontDir = "client/fonts/"
 
@@ -14,6 +15,7 @@ class translateParams(object):
     outPath: str
     start: int
     end: int
+    isAi: bool = 0
 
 
 class translate:
@@ -35,8 +37,11 @@ class translate:
         print("正在翻译: {}%: ".format(int(self.i)), "▋" * (int(self.i) // 2), end="\n")
 
     def translate_and_generate_pdf(self, pram: translateParams):
-        self.ai = AiClient("https://ai-yyds.com/v1/chat/completions",
-                           "sk-N9ILW166aQgt5fQqD668Ec73B14c42FcB06130E4Fe276e1b")
+        if translateParams.isAi == 1:
+            print("选择AI翻译")
+        elif translateParams.isAi == 0:
+            print("选择有道翻译")
+        self.ai = AiClient(seting.OpenAiSettings.Url, seting.OpenAiSettings.key)
         self.doc = fitz.open(pram.inPath)
         self.output_doc = fitz.open()
         self.end = pram.end
@@ -57,6 +62,7 @@ class translate:
             self.progress_bar()
         self.output_doc.save(pram.outPath)
         self.output_doc.close()
+        self.doc.close()
 
     def insert_rect(self):
         for i in self.page.get_drawings(True):
@@ -96,6 +102,7 @@ class translate:
                 ascender = 0
                 text = ""
                 color = 0
+                expandtabs = 8
                 for j in i["lines"]:
                     for k in j["spans"]:
                         pc += 1
@@ -107,18 +114,21 @@ class translate:
                             color = 1
                         elif color < 0:
                             color = 0
+                        expandtabs = k["flags"]
                 basename = "simsun.ttc"
                 fontsize /= pc
                 ascender /= pc
                 color /= pc
-                value = u"".format(text)
-                # value = u"{}".format(a.getTranslation(text))
-                try:
-                    value = u"{}".format(createRequest(text))
-                except Exception as e:
-                    print(e)
+                if translateParams.isAi == 1:
+                    text = u"{}".format(self.ai.getTranslation(text))
+                elif translateParams.isAi == 0:
+                    try:
+                        text = u"{}".format(createRequest(text))
+                    except Exception as e:
+                        print(e)
                 font = "F0"
-                self.new_page.insert_textbox(rect=i["bbox"], fill_opacity=ascender, buffer=value, fontsize=fontsize,
+                self.new_page.insert_textbox(rect=i["bbox"], fill_opacity=ascender, buffer=text,
+                                             fontsize=fontsize, expandtabs=expandtabs,
                                              fontfile=BaseFontDir + basename, fontname=font, color=color)
             count += 1
 

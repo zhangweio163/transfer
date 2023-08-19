@@ -38,7 +38,7 @@
                     formData.append("file", file);
 
                     try {
-                        const response = await axios.post("http://www.lovezdy.com:8000/upload_and_translate/", formData, {
+                        const response = await axios.post("http://127.0.0.1:8000/upload_and_translate/", formData, {
                             headers: {
                                 "Authorization": "Bearer 1437213b-6ea4-4007-bce1-c8c91fa1c317",
                                 "Content-Type": "multipart/form-data",
@@ -47,12 +47,12 @@
                         });
 
                         if (response.status === 200) {
-                            const blob = new Blob([response.data], {type: "application/pdf"}); // 确保MIME类型为application/pdf
+                            const blob = new Blob([response.data], {type: "application/zip"}); // 确保MIME类型为application/pdf
                             const url = URL.createObjectURL(blob);
                             const a = document.createElement("a");
                             a.style.display = "none";
                             a.href = url;
-                            a.download = "translated_file.pdf";
+                            a.download = Date.now() + "translated_file.zip";
                             document.body.appendChild(a);
                             a.click();
                             URL.revokeObjectURL(url);

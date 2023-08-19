@@ -28,6 +28,7 @@ class AiClient:
             "content"] = f"""You are a translation api, and when I pass parameters in English, you output them in Chinese.
 Now pass in the parameter '{content}'"""
         res = requests.post(url=self.url, data=json.dumps(self.body, sort_keys=False), headers=self.header)
+        print(res.json())
         if "errors" in res.json():
             print(res.json()['errors'])
         return res.json()["choices"][0]["message"]["content"]
