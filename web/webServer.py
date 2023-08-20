@@ -41,6 +41,21 @@ def check_auth(Authorization: str = Header(...)):
         )
 
 
+def returnError(error):
+    raise HTTPException(
+        status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+        detail=error
+    )
+
+
+def removeFile(outPath, inPath):
+    try:
+        os.remove(outPath)
+        os.remove(inPath)
+    except Exception:
+        pass
+
+
 def upload_and_translate(token: dict = Depends(check_auth), start: int = 0, end: int = 1, isAi: int = 1,
                          file: UploadFile = File(...)):
     if start == end or start > end:
@@ -49,27 +64,30 @@ def upload_and_translate(token: dict = Depends(check_auth), start: int = 0, end:
         input_pdf_path = os.path.join(FastApiSettings.inPath, str(uuid.uuid4()) + file.filename)
         outFilePre = "translated_" + str(uuid.uuid4())
         output_pdf_path = os.path.join(FastApiSettings.outPath, outFilePre + file.filename)
-        tra = translate()
-        with open(input_pdf_path, "wb") as f:
-            shutil.copyfileobj(file.file, f)
-        f.close()
-        pram = translateParams()
-        pram.inPath = input_pdf_path
-        pram.outPath = output_pdf_path
-        pram.start = start
-        pram.end = end
-        pram.isAi = isAi
-        tra.translate_and_generate_pdf(pram)
+        try:
+            tra = translate()
+            with open(input_pdf_path, "wb") as f:
+                shutil.copyfileobj(file.file, f)
+            f.close()
+            pram = translateParams()
+            pram.inPath = input_pdf_path
+            pram.outPath = output_pdf_path
+            pram.start = start
+            pram.end = end
+            pram.isAi = isAi
+            tra.translate_and_generate_pdf(pram)
 
-        compressed_file_path = os.path.join(FastApiSettings.zipPath, outFilePre + ".zip")
-        zipFile = zipfile.ZipFile(compressed_file_path, 'w')
-        zipFile.write(output_pdf_path, outFilePre + file.filename, zipfile.ZIP_DEFLATED)
-        zipFile.close()
-        os.remove(output_pdf_path)
-        os.remove(input_pdf_path)
-        return FileResponse(compressed_file_path, media_type="application/zip")
+            compressed_file_path = os.path.join(FastApiSettings.zipPath, outFilePre + ".zip")
+            zipFile = zipfile.ZipFile(compressed_file_path, 'w')
+            zipFile.write(output_pdf_path, outFilePre + file.filename, zipfile.ZIP_DEFLATED)
+            zipFile.close()
+            removeFile(output_pdf_path, input_pdf_path)
+            return FileResponse(compressed_file_path, media_type="application/zip")
+        except Exception as e:
+            removeFile(output_pdf_path, input_pdf_path)
+            returnError(e)
     else:
-        return {"error": "Invalid file format. Only PDF files are allowed."}
+        returnError("Invalid file format. Only PDF files are allowed.")
 
 
 @app.post("/upload_and_translate/")
