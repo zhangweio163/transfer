@@ -7,6 +7,7 @@ import requests
 class AiClient:
     def __init__(self, url, token):
         self.url = url
+        self.count = 0
         self.body = {
             "model": "gpt-3.5-turbo",
             "messages": [
@@ -19,8 +20,8 @@ class AiClient:
         }
         self.header = {
             "Authorization": "Bearer " + token,
-            "Content-Type" : "application/json; charset=utf-8",
-            "User-Agent" : "Mozilla/5.0 (Macintosh;)"
+            "Content-Type": "application/json; charset=utf-8",
+            "User-Agent": "Mozilla/5.0 (Macintosh;)"
         }
 
     def sendRequest(self, content):
@@ -32,10 +33,12 @@ Now pass in the parameter '{content}'"""
             print(res.json()['errors'])
         return res.json()["choices"][0]["message"]["content"]
 
-
-    def getTranslation(self,content):
+    def getTranslation(self, content):
+        self.count += 1
         try:
             return self.sendRequest(content)
         except Exception as e:
             print(e)
+            if self.count > 30:
+                raise Exception("重试超过30次,翻译失败")
             return self.getTranslation(content)
