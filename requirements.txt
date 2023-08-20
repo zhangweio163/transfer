@@ -2,4 +2,5 @@ requests~=2.31.0
 uuid~=1.30
 uvicorn~=0.22.0
 fastapi~=0.101.1
-PyMuPDF
+PyMuPDF~=1.22.5
+python-multipart~=0.0.6
