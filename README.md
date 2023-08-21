@@ -13,6 +13,8 @@ nohup python3 main.py >> output 2>&1 &
 [https://www.openai.com](https://www.openai.com)  
 ##有道词典  
 [http://fanyi.youdao.com/openapi/](http://fanyi.youdao.com/openapi/)  
+##百度翻译  
+[http://api.fanyi.baidu.com/product/113](http://api.fanyi.baidu.com/product/113)  
 #配置项  
 ___所有的配置项都在seting→steing.py下___  
 ##OpenAi  
