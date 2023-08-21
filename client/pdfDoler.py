@@ -4,10 +4,20 @@ import sys
 import fitz
 
 from API.openai.AIclient import AiClient
-from API.youdao.TranslateDemo import createRequest
-from seting import seting
+from API.youdao.TranslateDemo import createRequest as YouDaoTranslate
+from API.google.api import translate as GoogleTranslate
+from API.baidu.Baidu_Text_transAPI import translate as BaiduTranslate
+from seting.seting import OpenAiSettings
 
 BaseFontDir = "client/fonts/"
+
+ai = AiClient(OpenAiSettings.Url, OpenAiSettings.key)
+mapper = {
+    "0": {"name": "有道翻译", "transfer": YouDaoTranslate},
+    "1": {"name": "AI翻译", "transfer": ai.getTranslation},
+    "2": {"name": "Google翻译", "transfer": GoogleTranslate},
+    "3": {"name": "百度翻译", "transfer": BaiduTranslate}
+}
 
 
 class translateParams(object):
@@ -15,40 +25,35 @@ class translateParams(object):
     outPath: str
     start: int
     end: int
-    isAi: bool = 0
+    trans: bool = 0
 
 
 class translate:
     def __init__(self):
+        self.parm: translateParams = translateParams()
         self.i = 0
         self.new_page = None
         self.doc = None
-        self.ai = None
         self.end = 0
         self.output_doc = None
         self.start = 0
         self.step = 0
         self.c = 0
         self.page = None
-        self.parm: translateParams
+        self.translate = {}
 
     def progress_bar(self):
         sys.stdout.flush()
         print("\r", end="")
         print("正在翻译: {}%: ".format(int(self.i)), "▋" * (int(self.i) // 2), end="\n")
 
-    def translate_and_generate_pdf(self, pram: translateParams):
-        self.parm = pram
-        print(self.parm.isAi)
-        if self.parm.isAi == 1:
-            print("选择AI翻译")
-        elif self.parm.isAi == 0:
-            print("选择有道翻译")
-        self.ai = AiClient(seting.OpenAiSettings.Url, seting.OpenAiSettings.key)
-        self.doc = fitz.open(pram.inPath)
+    def translate_and_generate_pdf(self, parm: translateParams):
+        self.parm = parm
+        print(f"选择{mapper[f'{self.parm.trans}']['name']}")
+        self.doc = fitz.open(self.parm.inPath)
         self.output_doc = fitz.open()
-        self.end = pram.end
-        self.start = pram.start
+        self.end = self.parm.end
+        self.start = self.parm.start
         self.step = 100 / (self.end - self.start)
         self.c = self.start
         self.i = 0
@@ -63,7 +68,7 @@ class translate:
             self.insert_text()
             self.i = (self.i + 1) * self.step
             self.progress_bar()
-        self.output_doc.save(pram.outPath)
+        self.output_doc.save(self.parm.outPath)
         self.output_doc.close()
         self.doc.close()
 
@@ -122,16 +127,10 @@ class translate:
                 fontsize /= pc
                 ascender /= pc
                 color /= pc
-                if self.parm.isAi == 1:
-                    try:
-                        text = u"{}".format(self.ai.getTranslation(text))
-                    except Exception as e:
-                        raise e
-                elif self.parm.isAi == 0:
-                    try:
-                        text = u"{}".format(createRequest(text))
-                    except Exception as e:
-                        raise e
+                try:
+                    mapper[f'{self.parm.trans}']['transfer'](text)
+                except Exception as e:
+                    raise e
                 font = "F0"
                 self.new_page.insert_textbox(rect=i["bbox"], fill_opacity=ascender, buffer=text,
                                              fontsize=fontsize, expandtabs=expandtabs,

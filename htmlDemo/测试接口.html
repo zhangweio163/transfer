@@ -38,7 +38,7 @@
                     formData.append("file", file);
 
                     try {
-                        const response = await axios.post("http://127.0.0.1:8000/upload_and_translate/?start=0&end=1&isAi=1", formData, {
+                        const response = await axios.post("http://127.0.0.1:8000/upload_and_translate/?start=0&end=1&trans=1", formData, {
                             headers: {
                                 "Authorization": "Bearer 1437213b-6ea4-4007-bce1-c8c91fa1c317",
                                 "Content-Type": "multipart/form-data",

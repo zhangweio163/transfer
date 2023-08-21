@@ -56,7 +56,7 @@ def removeFile(outPath, inPath):
         pass
 
 
-def upload_and_translate(token: dict = Depends(check_auth), start: int = 0, end: int = 1, isAi: int = 1,
+def upload_and_translate(token: dict = Depends(check_auth), start: int = 0, end: int = 1, trans: int = 2,
                          file: UploadFile = File(...)):
     if start == end or start > end:
         return {"error": "Invalid query pram. Only start lower than end"}
@@ -74,7 +74,7 @@ def upload_and_translate(token: dict = Depends(check_auth), start: int = 0, end:
             pram.outPath = output_pdf_path
             pram.start = start
             pram.end = end
-            pram.isAi = isAi
+            pram.trans = trans
             tra.translate_and_generate_pdf(pram)
 
             compressed_file_path = os.path.join(FastApiSettings.zipPath, outFilePre + ".zip")
@@ -92,7 +92,7 @@ def upload_and_translate(token: dict = Depends(check_auth), start: int = 0, end:
 
 @app.post("/upload_and_translate/")
 async def upload_and_translate_route(
-        token: dict = Depends(check_auth), start: int = 0, end: int = 1, isAi: int = 1, file: UploadFile = File(...)
+        token: dict = Depends(check_auth), start: int = 0, end: int = 1, trans: int = 2, file: UploadFile = File(...)
 ):
-    result = upload_and_translate(token, start, end, isAi, file)
+    result = upload_and_translate(token, start, end, trans, file)
     return result
