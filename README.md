@@ -4,18 +4,18 @@
 ```bash
 python3 main.py
 ```
-##LINUX后台启动
+##LINUX后台启动  
 ```bash
 nohup python3 main.py >> output 2>&1 &
 ```
-#目前对接接口
+#目前对接接口  
 ##OpenAI
 [https://www.openai.com](https://www.openai.com)
-##有道词典
+##有道词典  
 [http://fanyi.youdao.com/openapi/](http://fanyi.youdao.com/openapi/)
 #配置项
 ___所有的配置项都在seting→steing.py下___
-##OpenAi
+##OpenAi  
   ```python
 class OpenAiSettings(object):    
     #openAI的completions接口地址
@@ -23,7 +23,7 @@ class OpenAiSettings(object):
     #openAI的Key   
     key = "" 
 ```
-##有道词典
+##有道词典  
   ```python
 
 class YouDaoSettings(object):
@@ -35,8 +35,8 @@ class YouDaoSettings(object):
     lang_from = 'auto'
     lang_to = 'zh-CHS'
 ```
-#运行原理
-##流程图
+#运行原理  
+##流程图  
 ![流程图](./PDF翻译接口流程图.png)
 ##项目结构
 ```
